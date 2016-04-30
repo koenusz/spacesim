@@ -1,0 +1,2071 @@
+2541 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+2545 [main] DEBUG com.space.spacesim.Application - Status: inactive
+2545 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+2545 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+2546 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+2546 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+2546 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+2546 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+126894 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+126896 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+126896 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+126896 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+126896 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+126896 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1316 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1317 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1318 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1318 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1318 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1318 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1318 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1318 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1318 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1318 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1319 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1319 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1319 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1319 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1020 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1024 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1024 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1067 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+894  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+927  [main] DEBUG com.space.spacesim.Application - Status: inactive
+927  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+927  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+928  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+928  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+928  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+928  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+928  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+928  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+928  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+929  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+929  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+929  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+916  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+904  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+855  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+848  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+871  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+796  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+3677 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+783  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+871  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+785  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+879  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+884  [main] DEBUG com.space.spacesim.Application - Status: inactive
+884  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+884  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+884  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+853  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+947  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+952  [main] DEBUG com.space.spacesim.Application - Status: inactive
+952  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+952  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+952  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+953  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1016 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1100 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1105 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1105 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1105 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1105 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1105 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1105 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1105 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1105 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1106 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1106 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1106 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1106 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1106 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+880  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+983  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+26063 [main] DEBUG com.space.spacesim.Application - Status: inactive
+26063 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+26063 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+26063 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+26063 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+26064 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1212 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+810  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+900  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+908  [main] DEBUG com.space.spacesim.Application - Status: inactive
+908  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+908  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+908  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+909  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+909  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+909  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+910  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+910  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+910  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+910  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+910  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+910  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+944  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+928  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+98584 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+899  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+3626 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+794  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+907  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+915  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+6426 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+901  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1326 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+109699 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+813  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+883  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+783  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+859  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+896  [main] DEBUG com.space.spacesim.Application - Status: inactive
+896  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+896  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+896  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+896  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+896  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+897  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+897  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+897  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+897  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+897  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+897  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+897  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+777  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+883  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+883  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1097 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1305 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+774  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+865  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+888  [main] DEBUG com.space.spacesim.Application - Status: inactive
+888  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+888  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+888  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+888  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+888  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+888  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+889  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+889  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+889  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+889  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+889  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+889  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1078 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+744  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+967  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+861  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+985  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+862  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1000 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+268640 [main] DEBUG com.guicemodel.OrientDBModule - provided
+274497 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+736  [main] DEBUG com.guicemodel.OrientDBModule - provided
+741  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+921  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+3056 [main] DEBUG com.guicemodel.OrientDBModule - provided
+3076 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+117686 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+909  [main] DEBUG com.guicemodel.OrientDBModule - provided
+914  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1092 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+747  [main] DEBUG com.guicemodel.OrientDBModule - provided
+762  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+851  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+6588 [main] DEBUG com.guicemodel.OrientDBModule - provided
+6595 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+6721 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+850  [main] DEBUG com.guicemodel.OrientDBModule - provided
+866  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+978  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+848  [main] DEBUG com.guicemodel.OrientDBModule - provided
+863  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+941  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+36605 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+38304 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+38783 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+39653 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+39814 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+856  [main] DEBUG com.guicemodel.OrientDBModule - provided
+864  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+941  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+39190 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+86185 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+86188 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+86190 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+86195 [main] DEBUG c.s.s.model.entity.PersistentShip - save
+1151 [main] DEBUG com.guicemodel.OrientDBModule - provided
+1155 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+903  [main] DEBUG com.guicemodel.OrientDBModule - provided
+910  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+799  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+997  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1024 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1024 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1024 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1025 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+787  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+851  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+751  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+824  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+884  [main] DEBUG com.space.spacesim.Application - Status: inactive
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+885  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+885  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+648  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+986  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1119 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1166 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1166 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1166 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1166 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1166 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1167 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+766  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+839  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+877  [main] DEBUG com.space.spacesim.Application - Status: inactive
+877  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+877  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+877  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+877  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+877  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+878  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+878  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+878  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+878  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+878  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+878  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+878  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1054 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1172 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1216 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1216 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1216 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1216 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1216 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1216 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1216 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1216 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1217 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1217 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1217 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1217 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1217 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+914  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+851  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+852  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+865  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1270 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1316 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1317 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+42544 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+42546 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+42547 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+875  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+950  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+993  [main] DEBUG com.space.spacesim.Application - Status: inactive
+993  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+993  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+993  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+994  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+867  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+944  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+989  [main] DEBUG com.space.spacesim.Application - Status: inactive
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+990  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1073 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1212 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1255 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1255 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1255 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+782  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+845  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+882  [main] DEBUG com.space.spacesim.Application - Status: inactive
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+882  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+882  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+883  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+769  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+841  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+880  [main] DEBUG com.space.spacesim.Application - Status: inactive
+880  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+880  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+880  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+880  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+881  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+885  [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@7fc44dec
+886  [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@7e3060d8
+886  [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@293d0107
+843  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+923  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+965  [main] DEBUG com.space.spacesim.Application - Status: inactive
+965  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+965  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+965  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+965  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+965  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+966  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+966  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+966  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+966  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+966  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+966  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+966  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+846  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+933  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+975  [main] DEBUG com.space.spacesim.Application - Status: inactive
+975  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+975  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+975  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+975  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+975  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+3110 [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@776802b0
+13758 [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@1aa99005
+850  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+927  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+968  [main] DEBUG com.space.spacesim.Application - Status: inactive
+968  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+968  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+968  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+969  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+974  [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@1aa99005
+871  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+946  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+987  [main] DEBUG com.space.spacesim.Application - Status: inactive
+987  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+987  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+987  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+987  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+987  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+988  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+988  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+988  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+988  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+988  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+988  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+988  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+993  [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@1aa99005
+853  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+934  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+975  [main] DEBUG com.space.spacesim.Application - Status: inactive
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+976  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+976  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+977  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+981  [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@776802b0
+857  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+939  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+990  [main] DEBUG com.space.spacesim.Application - Status: inactive
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+990  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+990  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+991  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+991  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+991  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+991  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+991  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+991  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+991  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+995  [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@1aa99005
+852  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+928  [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+970  [main] DEBUG com.space.spacesim.Application - Status: inactive
+970  [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+971  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+971  [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1002 [main] DEBUG com.space.spacesim.Application - found ship com.space.spacesim.model.entity.PersistentEntity_$$_javassist_5@a52ca2e
+1209 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+1317 [main] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1400 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1400 [main] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+1400 [main] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+1400 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1401 [main] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+885  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+985  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+20300 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+34702 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+5130 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+907  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1098 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+21694 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+926  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+971  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+935  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+981  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+839  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+878  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1232 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1340 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+13752 [main] DEBUG com.space.spacesim.Application - Status: inactive
+13752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+13752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+13752 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+13752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+13752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+13753 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+13753 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+13753 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+13753 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+13753 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+13753 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+13753 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+27035 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+27069 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+34688 [main] DEBUG com.space.spacesim.Application - Status: inactive
+34688 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+34688 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+34688 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+34688 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+34688 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+34689 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+34689 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+34689 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+34689 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+34689 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+34689 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+34689 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+927  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+929  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+929  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+978  [main] DEBUG com.space.spacesim.Application - Status: inactive
+978  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+978  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+978  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+978  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+978  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+978  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+978  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+979  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+979  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+979  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+979  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+979  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+922  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+924  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+925  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+925  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+929  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+962  [main] DEBUG com.space.spacesim.Application - Status: inactive
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+963  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1376 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1531 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+44044 [main] DEBUG com.space.spacesim.Application - Status: inactive
+44044 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+44044 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+44044 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+44044 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+44044 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+44044 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+44045 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+44045 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+44045 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+44045 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+44045 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+44045 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+16609 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+16613 [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+16623 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+46290 [main] DEBUG com.space.spacesim.Application - Status: inactive
+46508 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+46510 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+46744 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+74434 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+74435 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+916  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+918  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+918  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+921  [main] DEBUG com.space.spacesim.Application - before set save: {Ship:null}
+922  [main] DEBUG com.space.spacesim.Application - after set: {Ship:ship2}
+923  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+943  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+943  [main] DEBUG com.space.spacesim.Application - Status: inactive
+943  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+944  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+938  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+940  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+940  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+941  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+947  [main] DEBUG com.space.spacesim.Application - before set: {Ship:null}
+947  [main] DEBUG com.space.spacesim.Application - after set: {Ship:ship2}
+949  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+974  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+974  [main] DEBUG com.space.spacesim.Application - Status: inactive
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+974  [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+975  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+975  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+975  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+975  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+975  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1093 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+860  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+994  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+979  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+986  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+954  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+966  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1108 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+884  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+887  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+890  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+891  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+892  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+894  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+895  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+897  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store NameComponent(type=null, name=null, classification=null)
+899  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+900  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store Armor(armorClass=5)
+900  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+902  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+902  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+903  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store Hull(size=5)
+904  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+905  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store BeamWeapon(power=3, target=null)
+905  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+906  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+283759 [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store NameComponent(type=null, name=null, classification=null)
+384543 [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+384544 [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store Armor(armorClass=5)
+897  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store NameComponent(type=null, name=null, classification=null)
+899  [main] DEBUG c.s.s.model.entity.AbstractEntity - added NameComponent(type=null, name=null, classification=null)
+900  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+900  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store Armor(armorClass=5)
+901  [main] DEBUG c.s.s.model.entity.AbstractEntity - added Armor(armorClass=5)
+901  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+903  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+903  [main] DEBUG c.s.s.model.entity.AbstractEntity - added Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+903  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+904  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store Hull(size=5)
+904  [main] DEBUG c.s.s.model.entity.AbstractEntity - added Hull(size=5)
+904  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+905  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store BeamWeapon(power=3, target=null)
+905  [main] DEBUG c.s.s.model.entity.AbstractEntity - added BeamWeapon(power=3, target=null)
+906  [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+906  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+6161 [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store NameComponent(type=null, name=null, classification=null)
+987  [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store NameComponent(type=null, name=null, classification=null)
+15767 [main] DEBUG c.s.s.model.entity.AbstractEntity - added NameComponent(type=null, name=null, classification=null)
+20803 [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+1006 [main] DEBUG c.s.s.model.entity.AbstractEntity - added to store NameComponent(type=null, name=null, classification=null)
+2234 [main] DEBUG c.s.s.model.entity.AbstractEntity - added NameComponent(type=null, name=null, classification=null)
+2552 [main] DEBUG c.s.s.model.entity.AbstractEntity - added null
+3385 [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/util/component/NameComponent
+869  [main] DEBUG c.s.s.model.entity.AbstractEntity - added NameComponent(type=null, name=null, classification=null)
+871  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+871  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 NameComponent(type=null, name=null, classification=null)
+872  [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/util/component/NameComponent
+873  [main] DEBUG c.s.s.model.entity.AbstractEntity - added Armor(armorClass=5)
+873  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+873  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 Armor(armorClass=5)
+873  [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/Armor
+875  [main] DEBUG c.s.s.model.entity.AbstractEntity - added Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+875  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+875  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+875  [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/Shield
+876  [main] DEBUG c.s.s.model.entity.AbstractEntity - added Hull(size=5)
+876  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+876  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 Hull(size=5)
+876  [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/Hull
+877  [main] DEBUG c.s.s.model.entity.AbstractEntity - added BeamWeapon(power=3, target=null)
+878  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+878  [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 BeamWeapon(power=3, target=null)
+878  [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/BeamWeapon
+879  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+6880 [main] DEBUG c.s.s.model.entity.AbstractEntity - added NameComponent(type=null, name=null, classification=null)
+6888 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+6888 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 NameComponent(type=null, name=null, classification=null)
+6889 [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/util/component/NameComponent
+6890 [main] DEBUG c.s.s.model.entity.AbstractEntity - added Armor(armorClass=5)
+6890 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+6890 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 Armor(armorClass=5)
+6890 [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/Armor
+6895 [main] DEBUG c.s.s.model.entity.AbstractEntity - added Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+6896 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+6896 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+6896 [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/Shield
+6897 [main] DEBUG c.s.s.model.entity.AbstractEntity - added Hull(size=5)
+6897 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+6897 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 Hull(size=5)
+6897 [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/Hull
+6899 [main] DEBUG c.s.s.model.entity.AbstractEntity - added BeamWeapon(power=3, target=null)
+6900 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 2 null
+6900 [main] DEBUG c.s.s.model.entity.AbstractEntity - added 3 BeamWeapon(power=3, target=null)
+6900 [main] DEBUG c.s.s.model.entity.AbstractEntity - com/space/spacesim/model/ship/component/BeamWeapon
+6902 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1500 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1018 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1073 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1202 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+951  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1319 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+950  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+976  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+959  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+856  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+829  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+823  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+822  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+963  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+931  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+935  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+34344 [main] DEBUG com.space.spacesim.Application - before set: {null:null}
+34344 [main] DEBUG com.space.spacesim.Application - after set: {null:ship2}
+34380 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {null:ship1} targetting {null:ship2} 
+34384 [main] DEBUG com.space.spacesim.Application - after save: {null:ship2}
+34384 [main] DEBUG com.space.spacesim.Application - Status: inactive
+34384 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+34384 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+34384 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+34384 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+34384 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+34385 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+34385 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+34385 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+34385 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+34385 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+34385 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+34385 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1183 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1398 [main] DEBUG com.space.spacesim.Application - before set: {null:null}
+1398 [main] DEBUG com.space.spacesim.Application - after set: {null:ship2}
+1399 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {null:ship1} targetting {null:ship2} 
+1404 [main] DEBUG com.space.spacesim.Application - after save: {null:ship2}
+1405 [main] DEBUG com.space.spacesim.Application - Status: inactive
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strengt 2 and width 5
+1405 [main] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1405 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1099 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1221 [main] DEBUG com.space.spacesim.Application - before set: {null:null}
+1222 [main] DEBUG com.space.spacesim.Application - after set: {null:ship2}
+1224 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {null:ship1} targetting {null:ship2} 
+832  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+874  [main] DEBUG com.space.spacesim.Application - before set: {null:null}
+874  [main] DEBUG com.space.spacesim.Application - after set: {null:ship2}
+878  [main] DEBUG com.space.spacesim.Application - after save: {null:ship2}
+1036 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+928  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+950  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+94403 [main] DEBUG com.space.spacesim.Application - before set: {Ship:null}
+94403 [main] DEBUG com.space.spacesim.Application - after set: {Ship:ship2}
+94410 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1019 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+829  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+833  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+95988 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+95993 [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+1131 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+932  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+948  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+958  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+970  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+828  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+867  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [NameComponent(id=#17:3, type=Ship, name=ship1, classification=null), NameComponent(id=#17:2, type=Ship, name=null, classification=null)] 
+868  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+869  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:3, type=Ship, name=ship1, classification=null) 
+870  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:2, type=Ship, name=null, classification=null) 
+823  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+857  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:4, type=Ship, name=null, classification=null)] 
+860  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+862  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:5, type=Ship, name=null, classification=null), NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+863  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:8, armorClass=5), NameComponent(id=#17:5, type=Ship, name=null, classification=null), NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+864  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:8, armorClass=5), NameComponent(id=#17:5, type=Ship, name=ship1, classification=null), NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+864  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+865  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:8, armorClass=5) 
+865  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:5, type=Ship, name=ship1, classification=null) 
+866  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:4, type=Ship, name=null, classification=null) 
+867  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:7, armorClass=5) 
+1793 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+19338 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:0, type=Ship, name=null, classification=null)] 
+19363 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:0, type=Ship, name=null, classification=null), Armor(id=#13:0, armorClass=5)] 
+19365 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null), NameComponent(id=#17:0, type=Ship, name=null, classification=null), Armor(id=#13:0, armorClass=5)] 
+19366 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null), NameComponent(id=#17:0, type=Ship, name=null, classification=null), Armor(id=#13:1, armorClass=5), Armor(id=#13:0, armorClass=5)] 
+19366 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [NameComponent(id=#17:1, type=Ship, name=ship1, classification=null), NameComponent(id=#17:0, type=Ship, name=null, classification=null), Armor(id=#13:1, armorClass=5), Armor(id=#13:0, armorClass=5)] 
+938  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+985  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:0, type=Ship, name=null, classification=null)] 
+922  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+964  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null)] 
+43318 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:2, armorClass=5), NameComponent(id=#17:1, type=Ship, name=null, classification=null)] 
+47586 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:2, armorClass=5), NameComponent(id=#17:1, type=Ship, name=ship1, classification=null)] 
+47586 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+47586 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:2, armorClass=5) 
+47588 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:1, type=Ship, name=ship1, classification=null) 
+850  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+884  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:0, type=Ship, name=null, classification=null)] 
+888  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:3, armorClass=5), NameComponent(id=#17:0, type=Ship, name=null, classification=null)] 
+888  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:3, armorClass=5), NameComponent(id=#17:0, type=Ship, name=ship1, classification=null)] 
+888  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+891  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:3, armorClass=5) 
+892  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:0, type=Ship, name=ship1, classification=null) 
+866  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null)] 
+871  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null), Armor(id=#13:4, armorClass=5)] 
+872  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+873  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+875  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:2, type=Ship, name=null, classification=null)] 
+876  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:5, armorClass=5), NameComponent(id=#17:2, type=Ship, name=null, classification=null)] 
+876  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:5, armorClass=5), NameComponent(id=#17:2, type=Ship, name=ship1, classification=null)] 
+876  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+877  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:5, armorClass=5) 
+877  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:2, type=Ship, name=ship1, classification=null) 
+885  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:3, type=Ship, name=null, classification=null)] 
+891  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:6, armorClass=5), NameComponent(id=#17:3, type=Ship, name=null, classification=null)] 
+918  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:6, armorClass=5), Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:3, type=Ship, name=null, classification=null)] 
+942  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:6, armorClass=5), Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:3, type=Ship, name=null, classification=null), Hull(id=#15:0, size=5)] 
+962  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:6, armorClass=5), Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:3, type=Ship, name=null, classification=null), Hull(id=#15:0, size=5), BeamWeapon(id=#14:0, power=3, target=null)] 
+963  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+963  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+965  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:4, type=Ship, name=null, classification=null)] 
+966  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+967  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+969  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:1, size=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+970  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [BeamWeapon(id=#14:1, power=3, target=null), Hull(id=#15:1, size=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:4, type=Ship, name=null, classification=null), Armor(id=#13:7, armorClass=5)] 
+970  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [BeamWeapon(id=#14:1, power=3, target=null), Hull(id=#15:1, size=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:4, type=Ship, name=ship1, classification=null), Armor(id=#13:7, armorClass=5)] 
+970  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+971  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:1, power=3, target=null) 
+972  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:1, size=5) 
+973  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+974  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:4, type=Ship, name=ship1, classification=null) 
+974  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:7, armorClass=5) 
+991  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:5, type=Ship, name=null, classification=null)] 
+992  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:8, armorClass=5), NameComponent(id=#17:5, type=Ship, name=null, classification=null)] 
+994  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:8, armorClass=5), NameComponent(id=#17:5, type=Ship, name=null, classification=null), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+995  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:8, armorClass=5), NameComponent(id=#17:5, type=Ship, name=null, classification=null), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+996  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:8, armorClass=5), NameComponent(id=#17:5, type=Ship, name=null, classification=null), BeamWeapon(id=#14:2, power=3, target=null), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+998  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:8, armorClass=5), NameComponent(id=#17:6, type=Ship, name=null, classification=null), NameComponent(id=#17:5, type=Ship, name=null, classification=null), BeamWeapon(id=#14:2, power=3, target=null), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+1002 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:9, armorClass=5), Armor(id=#13:8, armorClass=5), NameComponent(id=#17:6, type=Ship, name=null, classification=null), NameComponent(id=#17:5, type=Ship, name=null, classification=null), BeamWeapon(id=#14:2, power=3, target=null), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+1003 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:9, armorClass=5), Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:8, armorClass=5), NameComponent(id=#17:6, type=Ship, name=null, classification=null), NameComponent(id=#17:5, type=Ship, name=null, classification=null), BeamWeapon(id=#14:2, power=3, target=null), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+1006 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:9, armorClass=5), Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:8, armorClass=5), NameComponent(id=#17:6, type=Ship, name=null, classification=null), NameComponent(id=#17:5, type=Ship, name=null, classification=null), BeamWeapon(id=#14:2, power=3, target=null), Hull(id=#15:3, size=5), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+1007 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:9, armorClass=5), Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:3, power=3, target=null), Armor(id=#13:8, armorClass=5), NameComponent(id=#17:6, type=Ship, name=null, classification=null), NameComponent(id=#17:5, type=Ship, name=null, classification=null), BeamWeapon(id=#14:2, power=3, target=null), Hull(id=#15:3, size=5), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+1009 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1009 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:9, armorClass=5), Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:3, power=3, target=null), Armor(id=#13:8, armorClass=5), NameComponent(id=#17:6, type=Ship, name=ship2, classification=null), NameComponent(id=#17:5, type=Ship, name=null, classification=null), BeamWeapon(id=#14:2, power=3, target=null), Hull(id=#15:3, size=5), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:9, armorClass=5) 
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1011 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:3, power=3, target=null) 
+1011 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:8, armorClass=5) 
+1012 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:6, type=Ship, name=ship2, classification=null) 
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:5, type=Ship, name=null, classification=null) 
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:2, power=3, target=null) 
+1014 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:3, size=5) 
+1015 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1015 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:2, size=5) 
+1031 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1031 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1031 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1031 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1031 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1031 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1031 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+16640 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:7, type=Ship, name=null, classification=null)] 
+32129 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:7, type=Ship, name=null, classification=null), Armor(id=#13:10, armorClass=5)] 
+33855 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:4, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:7, type=Ship, name=null, classification=null), Armor(id=#13:10, armorClass=5)] 
+38729 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:4, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:4, size=5), NameComponent(id=#17:7, type=Ship, name=null, classification=null), Armor(id=#13:10, armorClass=5)] 
+43578 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:4, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:4, size=5), NameComponent(id=#17:7, type=Ship, name=null, classification=null), Armor(id=#13:10, armorClass=5), BeamWeapon(id=#14:4, power=3, target=null)] 
+46092 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:8, type=Ship, name=null, classification=null)] 
+69651 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:8, type=Ship, name=null, classification=null), Armor(id=#13:11, armorClass=5)] 
+70536 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:8, type=Ship, name=null, classification=null), Armor(id=#13:11, armorClass=5)] 
+71164 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:5, size=5), Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:8, type=Ship, name=null, classification=null), Armor(id=#13:11, armorClass=5)] 
+72041 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:5, size=5), Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:5, power=3, target=null), NameComponent(id=#17:8, type=Ship, name=null, classification=null), Armor(id=#13:11, armorClass=5)] 
+72042 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+72043 [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+72043 [main] DEBUG com.space.spacesim.Application - loaded: {Ship:null}
+138816 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:9, type=Ship, name=null, classification=null)] 
+148803 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:12, armorClass=5), NameComponent(id=#17:9, type=Ship, name=null, classification=null)] 
+151867 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:12, armorClass=5), NameComponent(id=#17:9, type=Ship, name=null, classification=null), Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+152712 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:12, armorClass=5), NameComponent(id=#17:9, type=Ship, name=null, classification=null), Hull(id=#15:6, size=5), Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+153490 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:12, armorClass=5), NameComponent(id=#17:9, type=Ship, name=null, classification=null), Hull(id=#15:6, size=5), Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:6, power=3, target=null)] 
+153490 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:12, armorClass=5), NameComponent(id=#17:9, type=Ship, name=ship1, classification=null), Hull(id=#15:6, size=5), Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:6, power=3, target=null)] 
+153490 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+153491 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:12, armorClass=5) 
+153492 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:9, type=Ship, name=ship1, classification=null) 
+153493 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:6, size=5) 
+153494 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+153495 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:6, power=3, target=null) 
+169031 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:10, type=Ship, name=null, classification=null)] 
+173557 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:10, type=Ship, name=null, classification=null), Armor(id=#13:13, armorClass=5)] 
+176874 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:7, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:10, type=Ship, name=null, classification=null), Armor(id=#13:13, armorClass=5)] 
+178694 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:7, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:7, size=5), NameComponent(id=#17:10, type=Ship, name=null, classification=null), Armor(id=#13:13, armorClass=5)] 
+184854 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:7, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:7, size=5), NameComponent(id=#17:10, type=Ship, name=null, classification=null), BeamWeapon(id=#14:7, power=3, target=null), Armor(id=#13:13, armorClass=5)] 
+815  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+855  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:12, type=Ship, name=null, classification=null)] 
+859  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:12, type=Ship, name=null, classification=null), Armor(id=#13:14, armorClass=5)] 
+863  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:12, type=Ship, name=null, classification=null), Armor(id=#13:14, armorClass=5), Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+866  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:8, size=5), NameComponent(id=#17:12, type=Ship, name=null, classification=null), Armor(id=#13:14, armorClass=5), Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+871  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:8, size=5), BeamWeapon(id=#14:8, power=3, target=null), NameComponent(id=#17:12, type=Ship, name=null, classification=null), Armor(id=#13:14, armorClass=5), Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+871  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Hull(id=#15:8, size=5), BeamWeapon(id=#14:8, power=3, target=null), NameComponent(id=#17:12, type=Ship, name=ship1, classification=null), Armor(id=#13:14, armorClass=5), Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+871  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+873  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:8, size=5) 
+874  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:8, power=3, target=null) 
+875  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:12, type=Ship, name=ship1, classification=null) 
+876  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:14, armorClass=5) 
+877  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+892  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:13, type=Ship, name=null, classification=null)] 
+893  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null)] 
+895  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+897  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5)] 
+900  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), BeamWeapon(id=#14:9, power=3, target=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5)] 
+901  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), BeamWeapon(id=#14:9, power=3, target=null), NameComponent(id=#17:14, type=Ship, name=null, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5)] 
+903  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), BeamWeapon(id=#14:9, power=3, target=null), NameComponent(id=#17:14, type=Ship, name=null, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5), Armor(id=#13:16, armorClass=5)] 
+905  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), BeamWeapon(id=#14:9, power=3, target=null), NameComponent(id=#17:14, type=Ship, name=null, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5), Shield(id=#16:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:16, armorClass=5)] 
+908  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:15, armorClass=5), Hull(id=#15:10, size=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), BeamWeapon(id=#14:9, power=3, target=null), NameComponent(id=#17:14, type=Ship, name=null, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5), Shield(id=#16:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:16, armorClass=5)] 
+909  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [BeamWeapon(id=#14:10, power=3, target=null), Armor(id=#13:15, armorClass=5), Hull(id=#15:10, size=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), BeamWeapon(id=#14:9, power=3, target=null), NameComponent(id=#17:14, type=Ship, name=null, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5), Shield(id=#16:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:16, armorClass=5)] 
+911  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+911  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [BeamWeapon(id=#14:10, power=3, target=null), Armor(id=#13:15, armorClass=5), Hull(id=#15:10, size=5), NameComponent(id=#17:13, type=Ship, name=null, classification=null), BeamWeapon(id=#14:9, power=3, target=null), NameComponent(id=#17:14, type=Ship, name=ship2, classification=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5), Shield(id=#16:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:16, armorClass=5)] 
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+912  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:10, power=3, target=null) 
+913  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:15, armorClass=5) 
+918  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:10, size=5) 
+919  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:13, type=Ship, name=null, classification=null) 
+920  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:9, power=3, target=null) 
+921  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:14, type=Ship, name=ship2, classification=null) 
+922  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+923  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:9, size=5) 
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:16, armorClass=5) 
+939  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+939  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+939  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+940  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+940  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+940  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+940  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+839  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+876  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:15, type=Ship, name=null, classification=null)] 
+882  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:15, type=Ship, name=null, classification=null), Armor(id=#13:17, armorClass=5)] 
+885  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:11, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:15, type=Ship, name=null, classification=null), Armor(id=#13:17, armorClass=5)] 
+888  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:11, size=5), Shield(id=#16:11, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:15, type=Ship, name=null, classification=null), Armor(id=#13:17, armorClass=5)] 
+891  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:11, size=5), Shield(id=#16:11, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:15, type=Ship, name=null, classification=null), Armor(id=#13:17, armorClass=5), BeamWeapon(id=#14:11, power=3, target=null)] 
+891  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Hull(id=#15:11, size=5), Shield(id=#16:11, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:15, type=Ship, name=ship1, classification=null), Armor(id=#13:17, armorClass=5), BeamWeapon(id=#14:11, power=3, target=null)] 
+891  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+892  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:11, size=5) 
+893  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:11, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+894  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:15, type=Ship, name=ship1, classification=null) 
+895  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:17, armorClass=5) 
+895  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:11, power=3, target=null) 
+908  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:16, type=Ship, name=null, classification=null)] 
+910  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:18, armorClass=5), NameComponent(id=#17:16, type=Ship, name=null, classification=null)] 
+911  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), NameComponent(id=#17:16, type=Ship, name=null, classification=null)] 
+912  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), NameComponent(id=#17:16, type=Ship, name=null, classification=null), Hull(id=#15:12, size=5)] 
+913  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:12, power=3, target=null), NameComponent(id=#17:16, type=Ship, name=null, classification=null), Hull(id=#15:12, size=5)] 
+913  [main] ERROR c.s.spacesim.store.PersistentEntity - trying to add a component NameComponent(id=null, type=Ship, name=null, classification=null) which already exists in the set
+915  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:12, power=3, target=null), NameComponent(id=#17:16, type=Ship, name=null, classification=null), NameComponent(id=#17:17, type=Ship, name=null, classification=null), Hull(id=#15:12, size=5)] 
+915  [main] ERROR c.s.spacesim.store.PersistentEntity - trying to add a component Armor(id=#-1:-1, armorClass=5) which already exists in the set
+916  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:19, armorClass=5), Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:12, power=3, target=null), NameComponent(id=#17:16, type=Ship, name=null, classification=null), NameComponent(id=#17:17, type=Ship, name=null, classification=null), Hull(id=#15:12, size=5)] 
+916  [main] ERROR c.s.spacesim.store.PersistentEntity - trying to add a component Shield(id=#-1:-1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) which already exists in the set
+918  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:19, armorClass=5), Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Shield(id=#16:13, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:12, power=3, target=null), NameComponent(id=#17:16, type=Ship, name=null, classification=null), NameComponent(id=#17:17, type=Ship, name=null, classification=null), Hull(id=#15:12, size=5)] 
+918  [main] ERROR c.s.spacesim.store.PersistentEntity - trying to add a component Hull(id=#-1:-1, size=5) which already exists in the set
+919  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:19, armorClass=5), Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Shield(id=#16:13, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:12, power=3, target=null), Hull(id=#15:13, size=5), NameComponent(id=#17:16, type=Ship, name=null, classification=null), NameComponent(id=#17:17, type=Ship, name=null, classification=null), Hull(id=#15:12, size=5)] 
+919  [main] ERROR c.s.spacesim.store.PersistentEntity - trying to add a component BeamWeapon(id=#-1:-1, power=3, target=null) which already exists in the set
+920  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:19, armorClass=5), Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Shield(id=#16:13, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:12, power=3, target=null), Hull(id=#15:13, size=5), NameComponent(id=#17:16, type=Ship, name=null, classification=null), NameComponent(id=#17:17, type=Ship, name=null, classification=null), BeamWeapon(id=#14:13, power=3, target=null), Hull(id=#15:12, size=5)] 
+921  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+922  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:19, armorClass=5), Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Shield(id=#16:13, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:12, power=3, target=null), Hull(id=#15:13, size=5), NameComponent(id=#17:16, type=Ship, name=null, classification=null), NameComponent(id=#17:17, type=Ship, name=ship2, classification=null), BeamWeapon(id=#14:13, power=3, target=null), Hull(id=#15:12, size=5)] 
+922  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+923  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:19, armorClass=5) 
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:13, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:18, armorClass=5) 
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:12, power=3, target=null) 
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:13, size=5) 
+927  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:16, type=Ship, name=null, classification=null) 
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:17, type=Ship, name=ship2, classification=null) 
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:13, power=3, target=null) 
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:12, size=5) 
+945  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+945  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+945  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+945  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+945  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+945  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+945  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+811  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+844  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:18, type=Ship, name=null, classification=null)] 
+848  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:18, type=Ship, name=null, classification=null), Armor(id=#13:20, armorClass=5)] 
+851  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:18, type=Ship, name=null, classification=null), Armor(id=#13:20, armorClass=5), Shield(id=#16:14, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+855  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:14, size=5), NameComponent(id=#17:18, type=Ship, name=null, classification=null), Armor(id=#13:20, armorClass=5), Shield(id=#16:14, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+858  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:14, size=5), BeamWeapon(id=#14:14, power=3, target=null), NameComponent(id=#17:18, type=Ship, name=null, classification=null), Armor(id=#13:20, armorClass=5), Shield(id=#16:14, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+858  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Hull(id=#15:14, size=5), BeamWeapon(id=#14:14, power=3, target=null), NameComponent(id=#17:18, type=Ship, name=ship1, classification=null), Armor(id=#13:20, armorClass=5), Shield(id=#16:14, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+858  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+859  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:14, size=5) 
+860  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:14, power=3, target=null) 
+861  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:18, type=Ship, name=ship1, classification=null) 
+862  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:20, armorClass=5) 
+863  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:14, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+877  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:19, type=Ship, name=null, classification=null)] 
+878  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:21, armorClass=5), NameComponent(id=#17:19, type=Ship, name=null, classification=null)] 
+880  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:15, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:21, armorClass=5), NameComponent(id=#17:19, type=Ship, name=null, classification=null)] 
+881  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:15, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:21, armorClass=5), NameComponent(id=#17:19, type=Ship, name=null, classification=null), Hull(id=#15:15, size=5)] 
+882  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [BeamWeapon(id=#14:15, power=3, target=null), Shield(id=#16:15, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:21, armorClass=5), NameComponent(id=#17:19, type=Ship, name=null, classification=null), Hull(id=#15:15, size=5)] 
+827  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+862  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:20, type=Ship, name=null, classification=null)] 
+865  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:22, armorClass=5), NameComponent(id=#17:20, type=Ship, name=null, classification=null)] 
+870  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:22, armorClass=5), NameComponent(id=#17:20, type=Ship, name=null, classification=null), Shield(id=#16:16, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+873  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:22, armorClass=5), NameComponent(id=#17:20, type=Ship, name=null, classification=null), Hull(id=#15:16, size=5), Shield(id=#16:16, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+880  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:22, armorClass=5), NameComponent(id=#17:20, type=Ship, name=null, classification=null), Hull(id=#15:16, size=5), BeamWeapon(id=#14:16, power=3, target=null), Shield(id=#16:16, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+880  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:22, armorClass=5), NameComponent(id=#17:20, type=Ship, name=ship1, classification=null), Hull(id=#15:16, size=5), BeamWeapon(id=#14:16, power=3, target=null), Shield(id=#16:16, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+880  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+881  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:22, armorClass=5) 
+882  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:20, type=Ship, name=ship1, classification=null) 
+883  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:16, size=5) 
+883  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:16, power=3, target=null) 
+884  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:16, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+905  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:21, type=Ship, name=null, classification=null)] 
+906  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:21, type=Ship, name=null, classification=null), Armor(id=#13:23, armorClass=5)] 
+907  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:17, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:21, type=Ship, name=null, classification=null), Armor(id=#13:23, armorClass=5)] 
+908  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:17, size=5), Shield(id=#16:17, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:21, type=Ship, name=null, classification=null), Armor(id=#13:23, armorClass=5)] 
+909  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [BeamWeapon(id=#14:17, power=3, target=null), Hull(id=#15:17, size=5), Shield(id=#16:17, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:21, type=Ship, name=null, classification=null), Armor(id=#13:23, armorClass=5)] 
+814  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+848  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:22, type=Ship, name=null, classification=null)] 
+852  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:24, armorClass=5), NameComponent(id=#17:22, type=Ship, name=null, classification=null)] 
+856  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:24, armorClass=5), NameComponent(id=#17:22, type=Ship, name=null, classification=null), Shield(id=#16:18, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+859  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:24, armorClass=5), NameComponent(id=#17:22, type=Ship, name=null, classification=null), Shield(id=#16:18, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:18, size=5)] 
+861  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:24, armorClass=5), BeamWeapon(id=#14:18, power=3, target=null), NameComponent(id=#17:22, type=Ship, name=null, classification=null), Shield(id=#16:18, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:18, size=5)] 
+861  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:24, armorClass=5), BeamWeapon(id=#14:18, power=3, target=null), NameComponent(id=#17:22, type=Ship, name=ship1, classification=null), Shield(id=#16:18, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:18, size=5)] 
+862  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+863  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:24, armorClass=5) 
+863  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:18, power=3, target=null) 
+864  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:22, type=Ship, name=ship1, classification=null) 
+866  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:18, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+867  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:18, size=5) 
+890  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:23, type=Ship, name=null, classification=null)] 
+891  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:25, armorClass=5), NameComponent(id=#17:23, type=Ship, name=null, classification=null)] 
+893  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:25, armorClass=5), Shield(id=#16:19, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:23, type=Ship, name=null, classification=null)] 
+895  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:25, armorClass=5), Shield(id=#16:19, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:19, size=5), NameComponent(id=#17:23, type=Ship, name=null, classification=null)] 
+897  [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Armor(id=#13:25, armorClass=5), Shield(id=#16:19, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:19, power=3, target=null), Hull(id=#15:19, size=5), NameComponent(id=#17:23, type=Ship, name=null, classification=null)] 
+899  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+900  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:25, armorClass=5), Shield(id=#16:19, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:19, power=3, target=null), Hull(id=#15:19, size=5), NameComponent(id=#17:23, type=Ship, name=ship2, classification=null)] 
+900  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+901  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:25, armorClass=5) 
+902  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:19, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+903  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:19, power=3, target=null) 
+903  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:19, size=5) 
+904  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:23, type=Ship, name=ship2, classification=null) 
+912  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+912  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+912  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+912  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+912  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+912  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+912  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+972  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1033 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:0, type=Ship, name=null, classification=null)] 
+1055 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:0, type=Ship, name=null, classification=null), Armor(id=#13:0, armorClass=5)] 
+1101 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:0, type=Ship, name=null, classification=null), Armor(id=#13:0, armorClass=5)] 
+1122 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:0, size=5), NameComponent(id=#17:0, type=Ship, name=null, classification=null), Armor(id=#13:0, armorClass=5)] 
+1144 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:0, size=5), NameComponent(id=#17:0, type=Ship, name=null, classification=null), BeamWeapon(id=#14:0, power=3, target=null), Armor(id=#13:0, armorClass=5)] 
+1144 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:0, size=5), NameComponent(id=#17:0, type=Ship, name=ship1, classification=null), BeamWeapon(id=#14:0, power=3, target=null), Armor(id=#13:0, armorClass=5)] 
+1144 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1145 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1146 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:0, size=5) 
+1147 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:0, type=Ship, name=ship1, classification=null) 
+1148 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:0, power=3, target=null) 
+1149 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:0, armorClass=5) 
+1164 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null)] 
+1165 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null), Armor(id=#13:1, armorClass=5)] 
+1166 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [NameComponent(id=#17:1, type=Ship, name=null, classification=null), Armor(id=#13:1, armorClass=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+1167 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [Hull(id=#15:1, size=5), NameComponent(id=#17:1, type=Ship, name=null, classification=null), Armor(id=#13:1, armorClass=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+1168 [main] DEBUG c.s.s.model.entity.AbstractEntity - adding component [BeamWeapon(id=#14:1, power=3, target=null), Hull(id=#15:1, size=5), NameComponent(id=#17:1, type=Ship, name=null, classification=null), Armor(id=#13:1, armorClass=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+1170 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+1170 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [BeamWeapon(id=#14:1, power=3, target=null), Hull(id=#15:1, size=5), NameComponent(id=#17:1, type=Ship, name=ship2, classification=null), Armor(id=#13:1, armorClass=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+1170 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1171 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:1, power=3, target=null) 
+1172 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:1, size=5) 
+1172 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:1, type=Ship, name=ship2, classification=null) 
+1173 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:1, armorClass=5) 
+1174 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1188 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1188 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1188 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1188 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1188 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1188 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1188 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+10000 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+842  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+12895 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+856  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+858  [main] DEBUG com.space.spacesim.Application - loaded: {Ship:}
+882  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:3, armorClass=5), Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:3, power=3, target=null), NameComponent(id=#17:4, type=Ship, name=ship1, classification=), Hull(id=#15:3, size=5)] 
+907  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+907  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Shield(id=#16:4, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:4, size=5), Armor(id=#13:4, armorClass=5), NameComponent(id=#17:5, type=Ship, name=ship2, classification=), BeamWeapon(id=#14:4, power=3, target=null)] 
+918  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+919  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+919  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+919  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+919  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+919  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+919  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+863  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+865  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",com.space.spacesim.model.util.system.NameSystem@36546a22
+865  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",com.space.spacesim.model.util.system.NameSystem@285c08c8
+878  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Hull(id=#15:5, size=5), Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:5, power=3, target=null), Armor(id=#13:5, armorClass=5), NameComponent(id=#17:8, type=Ship, name=ship1, classification=)] 
+902  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:2",com.space.spacesim.model.util.system.NameSystem@71b3bc45 targetting { "id" :" null",com.space.spacesim.model.util.system.NameSystem@a8c1f44 
+902  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:6, armorClass=5), NameComponent(id=#17:9, type=Ship, name=ship2, classification=), Hull(id=#15:6, size=5), Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:6, power=3, target=null)] 
+913  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:2",com.space.spacesim.model.util.system.NameSystem@a8c1f44
+913  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+913  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+913  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+913  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+913  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+913  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+856  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+858  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",com.space.spacesim.model.util.system.NameSystem@2c88b9fc
+858  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",com.space.spacesim.model.util.system.NameSystem@64dafeed
+858  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",com.space.spacesim.model.util.system.NameSystem@388ba540
+870  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Shield(id=#16:7, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:7, size=5), BeamWeapon(id=#14:7, power=3, target=null), NameComponent(id=#17:13, type=Ship, name=ship1, classification=), Armor(id=#13:7, armorClass=5)] 
+895  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:3",com.space.spacesim.model.util.system.NameSystem@3a62c01e targetting { "id" :" null",com.space.spacesim.model.util.system.NameSystem@7a8fa663 
+895  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Hull(id=#15:8, size=5), BeamWeapon(id=#14:8, power=3, target=null), NameComponent(id=#17:14, type=Ship, name=ship2, classification=), Armor(id=#13:8, armorClass=5), Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+908  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:3",com.space.spacesim.model.util.system.NameSystem@7a8fa663
+908  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+909  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+909  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+909  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+909  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+909  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+875  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+877  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:}
+877  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:}
+877  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:}
+877  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:}
+893  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:9, armorClass=5), NameComponent(id=#17:19, type=Ship, name=ship1, classification=), BeamWeapon(id=#14:9, power=3, target=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5)] 
+915  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:4",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+915  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [BeamWeapon(id=#14:10, power=3, target=null), NameComponent(id=#17:20, type=Ship, name=ship2, classification=), Hull(id=#15:10, size=5), Armor(id=#13:10, armorClass=5), Shield(id=#16:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+927  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:4",{Ship:ship2}
+927  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+927  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+927  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+927  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+927  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+927  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+4728 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+391253 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:4, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+391259 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+391268 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+391274 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:20, type=Ship, name=ship2, classification=)
+391279 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+983  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+9319 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1313 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1734 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Shield(id=#16:0, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:0, size=5), BeamWeapon(id=#14:0, power=3, target=null), NameComponent(id=#17:0, type=Ship, name=ship1, classification=), Armor(id=#13:0, armorClass=5)] 
+1787 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:0",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1787 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [BeamWeapon(id=#14:1, power=3, target=null), Hull(id=#15:1, size=5), NameComponent(id=#17:1, type=Ship, name=ship2, classification=), Armor(id=#13:1, armorClass=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+1814 [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:0",{Ship:ship2}
+1815 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1815 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1815 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1815 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1815 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1815 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+891  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1015 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+19677 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+21411 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+17219 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+874  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+858  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+852  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+856  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+858  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+859  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+862  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+892  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+873  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+879  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+880  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+882  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+884  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+892  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+979  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+985  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+989  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+991  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+993  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+844  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+851  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+852  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+853  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+856  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+861  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+881  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+885  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+887  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+889  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+891  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+896  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+897  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+909  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:2, armorClass=5), BeamWeapon(id=#14:2, power=3, target=null), NameComponent(id=#17:2, type=Ship, name=ship1, classification=), Shield(id=#16:2, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:2, size=5)] 
+963  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:1",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+964  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:3, armorClass=5), Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:3, power=3, target=null), Hull(id=#15:3, size=5), NameComponent(id=#17:3, type=Ship, name=ship2, classification=)] 
+980  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:1",{Ship:ship2}
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+889  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+845  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+851  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+877  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+882  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+884  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+886  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+888  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+891  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:3, type=Ship, name=ship2, classification=)
+893  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+894  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:3, size=5)
+894  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:3, power=3, target=null)
+895  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:3, armorClass=5)
+895  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+37186 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+37194 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+37196 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+37198 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+37200 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+37204 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:3, type=Ship, name=ship2, classification=)
+37205 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+37206 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:3, size=5)
+37207 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:3, power=3, target=null)
+37208 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:3, armorClass=5)
+37208 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1015 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+1021 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+1023 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+1025 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+1027 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+1030 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:3, type=Ship, name=ship2, classification=)
+1032 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+1033 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:3, size=5)
+1035 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:3, power=3, target=null)
+1036 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:3, armorClass=5)
+1036 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1005 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+1010 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+1013 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+1014 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+1016 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+1019 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:3, type=Ship, name=ship2, classification=)
+1020 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+1021 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:3, size=5)
+1022 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:3, power=3, target=null)
+1023 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:3, armorClass=5)
+1023 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+55459 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+55466 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+55468 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+55470 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+55472 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+982  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+988  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+990  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+992  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+995  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+130916 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:3, type=Ship, name=ship2, classification=)
+130918 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+130919 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:3, size=5)
+130920 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:3, power=3, target=null)
+130922 [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:3, armorClass=5)
+180089 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+180091 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+180091 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+180108 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Shield(id=#16:4, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:4, size=5), NameComponent(id=#17:4, type=Ship, name=ship1, classification=), Armor(id=#13:4, armorClass=5), BeamWeapon(id=#14:4, power=3, target=null)] 
+180135 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:2",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+180135 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Hull(id=#15:5, size=5), Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:5, power=3, target=null), Armor(id=#13:5, armorClass=5), NameComponent(id=#17:5, type=Ship, name=ship2, classification=)] 
+180148 [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:2",{Ship:ship2}
+180149 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+180149 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+180149 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+180149 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+180149 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+180149 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+900  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:1, power=3, target=null)
+902  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:1, size=5)
+902  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:1, type=Ship, name=ship2, classification=)
+902  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+902  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:1, armorClass=5)
+913  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:3, armorClass=5)
+913  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+913  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:3, power=3, target=null)
+913  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:3, size=5)
+913  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:3, type=Ship, name=ship2, classification=)
+949  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Hull(id=#15:5, size=5)
+949  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)
+949  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - BeamWeapon(id=#14:5, power=3, target=null)
+949  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - Armor(id=#13:5, armorClass=5)
+949  [main] DEBUG c.s.spacesim.proxy.StorageProxyImpl - NameComponent(id=#17:5, type=Ship, name=ship2, classification=)
+949  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+950  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+950  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+950  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+964  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:6, armorClass=5), NameComponent(id=#17:6, type=Ship, name=ship1, classification=), Hull(id=#15:6, size=5), Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:6, power=3, target=null)] 
+997  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:3",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+998  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [NameComponent(id=#17:7, type=Ship, name=ship2, classification=), Shield(id=#16:7, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:7, size=5), BeamWeapon(id=#14:7, power=3, target=null), Armor(id=#13:7, armorClass=5)] 
+1022 [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:3",{Ship:ship2}
+1022 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1022 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1023 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1023 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1023 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1023 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+905  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+907  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+907  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+907  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+907  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+919  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Hull(id=#15:8, size=5), BeamWeapon(id=#14:8, power=3, target=null), Armor(id=#13:8, armorClass=5), Shield(id=#16:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), NameComponent(id=#17:8, type=Ship, name=ship1, classification=)] 
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:4",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+944  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving [Armor(id=#13:9, armorClass=5), NameComponent(id=#17:9, type=Ship, name=ship2, classification=), BeamWeapon(id=#14:9, power=3, target=null), Shield(id=#16:9, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:9, size=5)] 
+956  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:4",{Ship:ship2}
+956  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+956  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+956  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+957  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+957  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+957  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+939  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+941  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+941  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+941  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+942  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+942  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+951  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving null [BeamWeapon(id=#14:10, power=3, target=null), Hull(id=#15:10, size=5), NameComponent(id=#17:10, type=Ship, name=ship1, classification=), Armor(id=#13:10, armorClass=5), Shield(id=#16:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+971  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:5",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+971  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving null [Hull(id=#15:11, size=5), Shield(id=#16:11, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:11, armorClass=5), NameComponent(id=#17:11, type=Ship, name=ship2, classification=), BeamWeapon(id=#14:11, power=3, target=null)] 
+988  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:5",{Ship:ship2}
+988  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+988  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+988  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+988  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+988  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+988  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+907  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+909  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+909  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+909  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+909  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+909  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+909  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+934  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:6 [Shield(id=#16:12, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:12, armorClass=5), NameComponent(id=#17:12, type=Ship, name=ship1, classification=), BeamWeapon(id=#14:12, power=3, target=null), Hull(id=#15:12, size=5)] 
+944  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:6",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+973  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:6 [Shield(id=#16:13, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:13, size=5), NameComponent(id=#17:13, type=Ship, name=ship2, classification=), BeamWeapon(id=#14:13, power=3, target=null), Armor(id=#13:13, armorClass=5)] 
+973  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:6",{Ship:ship2}
+973  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+973  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+932  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+934  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+935  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+935  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+935  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+935  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+935  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+935  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+959  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:7 [Hull(id=#15:14, size=5), NameComponent(id=#17:14, type=Ship, name=ship1, classification=), BeamWeapon(id=#14:14, power=3, target=null), Armor(id=#13:14, armorClass=5), Shield(id=#16:14, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+967  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:7",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+979  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:7 [BeamWeapon(id=#14:15, power=3, target=null), NameComponent(id=#17:15, type=Ship, name=ship2, classification=), Armor(id=#13:15, armorClass=5), Shield(id=#16:15, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:15, size=5)] 
+980  [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:7",{Ship:ship2}
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+980  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+18564 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+18568 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+18568 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+18568 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+18569 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+18569 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+18569 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+18569 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+18569 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+95869 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:8 [Hull(id=#15:16, size=5), BeamWeapon(id=#14:16, power=3, target=null), NameComponent(id=#17:16, type=Ship, name=ship1, classification=), Shield(id=#16:16, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:16, armorClass=5)] 
+122155 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:8",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+129498 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:8 [BeamWeapon(id=#14:17, power=3, target=null), Hull(id=#15:17, size=5), NameComponent(id=#17:17, type=Ship, name=ship2, classification=), Shield(id=#16:17, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:17, armorClass=5)] 
+149136 [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:8",{Ship:ship2}
+149136 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+149136 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+149137 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+149137 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+149137 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+149137 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1124 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+1127 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+6072 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:9 [Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:18, power=3, target=null), NameComponent(id=#17:18, type=Ship, name=ship1, classification=), Shield(id=#16:18, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:18, size=5)] 
+9298 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:9 [Armor(id=#13:18, armorClass=5), BeamWeapon(id=#14:18, power=3, target=null), NameComponent(id=#17:18, type=Ship, name=ship1, classification=), Shield(id=#16:18, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:18, size=5)] 
+11729 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" #18:9",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+11752 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:9 [Armor(id=#13:19, armorClass=5), NameComponent(id=#17:19, type=Ship, name=ship2, classification=), Shield(id=#16:19, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:19, power=3, target=null), Hull(id=#15:19, size=5)] 
+11752 [main] DEBUG com.space.spacesim.Application - after save: { "id" :" #19:9",{Ship:ship2}
+11752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+11752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+11752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+11752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+11752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+11752 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1064 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1067 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+1068 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+11803 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+12921 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:10 [Shield(id=#16:21, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:21, size=5), BeamWeapon(id=#14:21, power=3, target=null), Armor(id=#13:21, armorClass=5), NameComponent(id=#17:21, type=Ship, name=ship2, classification=)] 
+957  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+959  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+959  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+959  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+959  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+959  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+959  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+959  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+960  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+960  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+960  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+985  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1004 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:10 [NameComponent(id=#17:23, type=Ship, name=ship2, classification=), Hull(id=#15:23, size=5), Shield(id=#16:23, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:23, power=3, target=null), Armor(id=#13:23, armorClass=5)] 
+912  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+914  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+915  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:10",{Ship:ship2}
+932  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+943  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:11 [Armor(id=#13:25, armorClass=5), NameComponent(id=#17:25, type=Ship, name=ship2, classification=), Shield(id=#16:25, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:25, power=3, target=null), Hull(id=#15:25, size=5)] 
+975  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+977  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:10",{Ship:ship2}
+997  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+943  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+945  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:10",{Ship:ship2}
+971  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+972  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+995  [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:11 [Shield(id=#16:29, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:29, size=5), BeamWeapon(id=#14:29, power=3, target=null), NameComponent(id=#17:29, type=Ship, name=ship2, classification=), Armor(id=#13:29, armorClass=5)] 
+995  [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1061 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1063 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1063 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+1063 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+1063 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:10",{Ship:ship2}
+1064 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:11",{Ship:ship2}
+22677 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+22679 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+108322 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #18:12 [NameComponent(id=#17:31, type=Ship, name=ship2, classification=), BeamWeapon(id=#14:31, power=3, target=null), Armor(id=#13:31, armorClass=5), Shield(id=#16:31, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:31, size=5)] 
+108322 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1082 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1084 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:10",{Ship:ship2}
+1085 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:11",{Ship:ship2}
+34816 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+34819 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+40121 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:12 [NameComponent(id=#17:33, type=Ship, name=ship2, classification=), BeamWeapon(id=#14:33, power=3, target=null), Hull(id=#15:33, size=5), Shield(id=#16:33, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Armor(id=#13:33, armorClass=5)] 
+40121 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1039 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:3",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:4",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:5",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:6",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:7",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:8",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:9",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:10",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:11",{Ship:ship2}
+1042 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:12",{Ship:ship2}
+1059 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1060 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+56562 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:13 [Armor(id=#13:35, armorClass=5), BeamWeapon(id=#14:35, power=3, target=null), NameComponent(id=#17:35, type=Ship, name=ship2, classification=), Shield(id=#16:35, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(id=#15:35, size=5)] 
+56562 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1191 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1451 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1452 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1472 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:0 [BeamWeapon(id=#14:1, power=3, target=null), Hull(id=#15:1, size=5), NameComponent(id=#17:1, type=Ship, name=ship2, classification=), Armor(id=#13:1, armorClass=5), Shield(id=#16:1, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false)] 
+1472 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1026 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1029 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1050 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1051 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+6257 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:1 [Armor(id=#13:3, armorClass=5), Shield(id=#16:3, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:3, power=3, target=null), Hull(id=#15:3, size=5), NameComponent(id=#17:3, type=Ship, name=ship2, classification=)] 
+6257 [main] DEBUG c.s.spacesim.store.PersistentEntity - updating []
+1045 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1049 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1049 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+1068 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1069 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:5, size=5) 
+1070 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1070 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached BeamWeapon(id=#14:5, power=3, target=null) 
+1071 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:5, armorClass=5) 
+1071 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:5, type=Ship, name=ship2, classification=) 
+1079 [main] DEBUG c.s.s.model.entity.AbstractEntity - saving #19:2 [Hull(id=#15:5, size=5), Shield(id=#16:5, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), BeamWeapon(id=#14:5, power=3, target=null), Armor(id=#13:5, armorClass=5), NameComponent(id=#17:5, type=Ship, name=ship2, classification=)] 
+1080 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:4, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1081 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:4, size=5) 
+1081 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:4, type=Ship, name=ship1, classification=) 
+1082 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:4, armorClass=5) 
+1015 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1018 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+1018 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+1018 [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+1043 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1045 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#13:6, armorClass=5) 
+1045 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#17:6, type=Ship, name=ship1, classification=) 
+1046 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:6, size=5) 
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#16:6, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+877  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+879  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+879  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+879  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+923  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#15:8, size=5) 
+887  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+889  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:0",{Ship:ship2}
+889  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:1",{Ship:ship2}
+889  [main] DEBUG com.space.spacesim.Application - loaded: { "id" :" #19:2",{Ship:ship2}
+937  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+972  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1180 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1181 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#18:0, type=Ship, name=ship1, classification=) 
+831  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+885  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+887  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#18:2, type=Ship, name=ship1, classification=) 
+836  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+881  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+883  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#14:4, armorClass=5) 
+829  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+875  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship2} targetting { "id" :" null",{Ship:ship1} 
+876  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+877  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#16:6, size=5) 
+878  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#18:6, type=Ship, name=ship1, classification=) 
+942  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1024 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship2} targetting { "id" :" null",{Ship:ship1} 
+1026 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1027 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#18:8, type=Ship, name=ship1, classification=) 
+1028 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#17:8, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#16:8, size=5) 
+1030 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#14:8, armorClass=5) 
+838  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+890  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship2} targetting { "id" :" null",{Ship:ship1} 
+891  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+892  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#18:10, type=Ship, name=ship1, classification=) 
+893  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#14:10, armorClass=5) 
+894  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#17:10, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+895  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#16:10, size=5) 
+821  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+871  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship2} targetting { "id" :" null",{Ship:ship1} 
+872  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+873  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#18:12, type=Ship, name=ship1, classification=) 
+873  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#16:12, size=5) 
+874  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#14:12, armorClass=5) 
+1249 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1338 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship2} targetting { "id" :" null",{Ship:ship1} 
+1339 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+1341 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached NameComponent(id=#18:14, type=Ship, name=ship1, classification=) 
+1343 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#17:14, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+1344 [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Hull(id=#16:14, size=5) 
+853  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+918  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship2} targetting { "id" :" null",{Ship:ship1} 
+919  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - { "id" :" null",{Ship:ship1} targetting { "id" :" null",{Ship:ship2} 
+920  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Shield(id=#17:16, shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false) 
+922  [main] DEBUG c.s.spacesim.store.PersistentEntity - attached Armor(id=#14:16, armorClass=5) 
+953  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+19542 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+970  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+956  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+980  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+937  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+976  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+948  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+946  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+959  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+931  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+947  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+960  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+964  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+948  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+987  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+850  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+853  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+950  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+825  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+812  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+851  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - [FAILED toString()] targetting [FAILED toString()] 
+847  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - [FAILED toString()] targetting [FAILED toString()] 
+6616 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - [FAILED toString()] targetting [FAILED toString()] 
+966  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - [FAILED toString()] targetting [FAILED toString()] 
+974  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - [FAILED toString()] targetting [FAILED toString()] 
+987  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship2} targetting {Ship:ship1} 
+1001 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship2} targetting {Ship:ship1} 
+875  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship2} targetting {Ship:ship1} 
+877  [main] ERROR c.s.s.m.ship.system.ShieldSystem - beamweapon for {} not found{Ship:ship2}
+878  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+878  [main] ERROR c.s.s.m.ship.system.ShieldSystem - beamweapon for {} not found{Ship:ship1}
+849  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship2} targetting {Ship:ship1} 
+851  [main] ERROR c.s.s.m.ship.system.ShieldSystem - beamweapon for {} not found{Ship:ship2}
+851  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+851  [main] ERROR c.s.s.m.ship.system.ShieldSystem - beamweapon for {} not found{Ship:ship1}

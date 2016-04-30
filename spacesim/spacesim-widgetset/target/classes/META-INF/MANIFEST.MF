@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Vaadin-Widgetsets: com.space.spacesim.SpaceSimWidgetset
+Vaadin-Package-Version: 1
+Built-By: Koen van Dijk
+Build-Jdk: 1.8.0_77
+Created-By: Maven Integration for Eclipse
+

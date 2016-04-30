@@ -1,0 +1,469 @@
+159  [qtp824177287-26] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+166  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+167  [qtp824177287-26] DEBUG com.space.spacesim.Application - Status: inactive
+167  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+168  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+168  [qtp824177287-26] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+168  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+168  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+169  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+169  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+169  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+169  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+169  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+169  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+169  [qtp824177287-26] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+156  [qtp824177287-27] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+163  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+164  [qtp824177287-27] DEBUG com.space.spacesim.Application - Status: inactive
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+165  [qtp824177287-27] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+165  [qtp824177287-27] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+230  [qtp824177287-21] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+239  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+240  [qtp824177287-21] DEBUG com.space.spacesim.Application - Status: inactive
+240  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+240  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+240  [qtp824177287-21] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+240  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+241  [qtp824177287-21] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+153  [qtp824177287-23] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+161  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+163  [qtp824177287-23] DEBUG com.space.spacesim.Application - Status: inactive
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+163  [qtp824177287-23] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+163  [qtp824177287-23] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+163  [qtp824177287-24] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+171  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+172  [qtp824177287-24] DEBUG com.space.spacesim.Application - Status: inactive
+172  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+172  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+173  [qtp824177287-24] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+173  [qtp824177287-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+165  [qtp824177287-22] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+174  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+175  [qtp824177287-22] DEBUG com.space.spacesim.Application - Status: inactive
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+175  [qtp824177287-22] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+175  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+176  [qtp824177287-22] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+14477 [qtp824177287-26] DEBUG c.s.spacesim.model.component.Armor - setting armorclass to 6
+26281 [qtp1592415783-30] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+8706 [qtp1829344035-21] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+1260 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+6795 [qtp1829344035-25] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+7018 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+7085 [qtp1829344035-25] DEBUG com.space.spacesim.Application - Status: inactive
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+7085 [qtp1829344035-25] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+7085 [qtp1829344035-25] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1383 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+8279 [qtp1245434971-21] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+8288 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+8444 [qtp1245434971-21] DEBUG com.space.spacesim.Application - Status: inactive
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+8444 [qtp1245434971-21] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+8444 [qtp1245434971-21] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+356  [Scanner-0] DEBUG c.g.PersistentEntitiesModule - configuring
+376  [Scanner-0] DEBUG c.g.PersistentEntitiesModule - configuring
+358  [Scanner-0] DEBUG c.g.PersistentEntitiesModule - configuring
+944  [main] DEBUG c.g.PersistentEntitiesModule - configuring
+10496 [qtp1829344035-26] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+10508 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+10743 [qtp1829344035-26] DEBUG com.space.spacesim.Application - Status: inactive
+10743 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+10743 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+10743 [qtp1829344035-26] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+10744 [qtp1829344035-26] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1432 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+16907 [qtp1829344035-28] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+16919 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+17053 [qtp1829344035-28] DEBUG com.space.spacesim.Application - Status: inactive
+17053 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+17054 [qtp1829344035-28] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+17054 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+92449 [qtp1829344035-28] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+92449 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+92453 [qtp1829344035-28] DEBUG com.space.spacesim.Application - Status: inactive
+92453 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+92453 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+92453 [qtp1829344035-28] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+92453 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+92453 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+92453 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 2
+92453 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+92454 [qtp1829344035-28] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+1303 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+5747 [qtp1829344035-24] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+5759 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+5832 [qtp1829344035-24] DEBUG com.space.spacesim.Application - Status: inactive
+5832 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+5832 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+5833 [qtp1829344035-24] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+5833 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+5840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+26400 [qtp1829344035-24] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+26401 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+26405 [qtp1829344035-24] DEBUG com.space.spacesim.Application - Status: inactive
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+26405 [qtp1829344035-24] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 2
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+26405 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+26406 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26406 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+26406 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+26406 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+26406 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+26406 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+374  [Scanner-0] DEBUG c.g.PersistentEntitiesModule - configuring
+141827 [qtp1829344035-24] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+141828 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+141838 [qtp1829344035-24] DEBUG com.space.spacesim.Application - Status: inactive
+141839 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+141839 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+141839 [qtp1829344035-24] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+141839 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141839 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+141839 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+141839 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141839 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 2
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+141840 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | | | power: 0
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 3
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+141841 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+377  [Scanner-0] DEBUG c.g.PersistentEntitiesModule - configuring
+1310 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+3938 [qtp1829344035-24] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+3949 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+4015 [qtp1829344035-24] DEBUG com.space.spacesim.Application - Status: inactive
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+4016 [qtp1829344035-24] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+4016 [qtp1829344035-24] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+443  [Scanner-0] DEBUG c.g.PersistentEntitiesModule - configuring
+1251 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+4295 [qtp1829344035-22] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+4307 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+4379 [qtp1829344035-22] DEBUG com.space.spacesim.Application - Status: inactive
+4379 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+4379 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+4379 [qtp1829344035-22] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+4379 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+4379 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+4379 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+4380 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+4380 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+4380 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+4380 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+4380 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+4380 [qtp1829344035-22] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+396  [Scanner-0] DEBUG c.g.PersistentEntitiesModule - configuring
+1260 [main] DEBUG c.g.PersistentEntitiesModule - configuring
+6854 [qtp1829344035-27] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+6865 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - {Ship:ship1} targetting {Ship:ship2} 
+6953 [qtp1829344035-27] DEBUG com.space.spacesim.Application - Status: inactive
+6953 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - powering up shields of ship2
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - shield up with strengt 2 and width 5
+6955 [qtp1829344035-27] DEBUG com.space.spacesim.Application - X means shield present
+	1	|X|X|X|X|X| power: 5
+	1	|X|X|X|X|X| power: 5
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - shields taking 3 damage
+6955 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - X means shield present
+	1	| | | | | | power: 0
+	1	| | | | |X| power: 1
+6956 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
