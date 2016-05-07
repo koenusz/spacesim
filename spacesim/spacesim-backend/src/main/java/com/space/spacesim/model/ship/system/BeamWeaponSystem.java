@@ -10,6 +10,7 @@ import com.badlogic.ashley.core.EntitySystem;
 import com.badlogic.ashley.core.Family;
 import com.badlogic.ashley.utils.ImmutableArray;
 import com.google.inject.Inject;
+import com.space.spacesim.model.common.component.Target;
 import com.space.spacesim.model.ship.component.BeamWeapon;
 
 public class BeamWeaponSystem extends EntitySystem {
@@ -24,8 +25,9 @@ public class BeamWeaponSystem extends EntitySystem {
 
 	private ImmutableArray<Entity> entities;
 
-	public void target(Entity attacker, Entity target) {
+	public void target(Entity attacker, Target target) {
 		logger.debug("{} targetting {} ", attacker, target);
+			
 		BeamWeapon attackerWeapon = beamWeapons.get(attacker);
 		if (attackerWeapon != null) {
 			attackerWeapon.setTarget(target);
@@ -48,10 +50,10 @@ public class BeamWeaponSystem extends EntitySystem {
 		}
 	}
 
-	private void shoot(Entity target, int damageAmount) {
+	private void shoot(Target target, int damageAmount) {
 
 		ShieldSystem shieldSystem = engine.getSystem(ShieldSystem.class);
-		int overflow = shieldSystem.recieveBeamDamage(target, damageAmount);
+		int overflow = shieldSystem.recieveBeamDamage(target.getShield(), damageAmount);
 		logger.debug("overflow {}", overflow);
 	}
 

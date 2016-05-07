@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="854" started-at="2016-05-05T14:24:48Z" finished-at="2016-05-05T14:24:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="854" started-at="2016-05-05T14:24:48Z" finished-at="2016-05-05T14:24:49Z">
+      <class name="com.orientechnologies.orient.object.InterfaceTest">
+        <test-method status="PASS" signature="nest()[pri:0, instance:com.orientechnologies.orient.object.InterfaceTest@58651fd0]" name="nest" duration-ms="782" started-at="2016-05-05T16:24:48Z" finished-at="2016-05-05T16:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nest -->
+        <test-method status="PASS" signature="noNest()[pri:0, instance:com.orientechnologies.orient.object.InterfaceTest@58651fd0]" name="noNest" duration-ms="61" started-at="2016-05-05T16:24:49Z" finished-at="2016-05-05T16:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noNest -->
+      </class> <!-- com.orientechnologies.orient.object.InterfaceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

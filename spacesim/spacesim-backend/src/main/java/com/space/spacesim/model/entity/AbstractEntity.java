@@ -1,6 +1,5 @@
 package com.space.spacesim.model.entity;
 
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -42,27 +41,31 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 	}
 
 	public void reload() {
-		persistentEntity.reload();
+		persistentEntity = persistentEntity.reload();
 	}
 
-	public void load(String id) {
-		if (StringUtils.isEmpty(id)) {
-			return;
-		}
-		persistentEntity = persistentEntity.load(id);
-	}
+//	public void load(String id) {
+//		if (StringUtils.isEmpty(id)) {
+//			return;
+//		}
+//		persistentEntity = persistentEntity.load(id);
+//	}
 
-	public void load(ORID id) {
-		persistentEntity = persistentEntity.load(id);
+	public void load() {
+		persistentEntity = persistentEntity.load();
 	}
 
 	public void save() {
 		this.persistentEntity = persistentEntity.save();
+		for(Component com : persistentEntity.getComponents())
+		{
+			updateComponent(com);
+		}
 	}
 
 	public <C extends Component> void addComponent(Class<C> type) {
 
-		Component component = persistentEntity.addComponent(type);
+		Component component = persistentEntity.addComponent(null, type);
 		addComponentToEngine(component);
 	}
 
@@ -71,9 +74,12 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 		addComponentToEngine(component);
 	}
 
+	private void updateComponent(Component component) {
+		this.remove(component.getClass());
+		this.add(component);
+	}
+
 	private void addComponentToEngine(Component component) {
-		
-		// logger.debug("adding component {} ", components);
 		this.add(component);
 	}
 
@@ -110,6 +116,11 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 	@Override
 	public String getClassification() {
 		return this.getComponent(NameComponent.class).getClassification();
+	}
+
+	@Override
+	public PersistentEntity<A> getPersistentEntity() {
+		return persistentEntity;
 	}
 
 	@Override

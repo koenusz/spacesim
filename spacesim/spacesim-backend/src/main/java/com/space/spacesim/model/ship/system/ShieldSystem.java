@@ -7,6 +7,7 @@ import com.badlogic.ashley.core.ComponentMapper;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.ashley.core.EntitySystem;
 import com.google.inject.Inject;
+import com.space.spacesim.model.common.component.Target;
 import com.space.spacesim.model.ship.component.BeamWeapon;
 import com.space.spacesim.model.ship.component.Hull;
 import com.space.spacesim.model.ship.component.Shield;
@@ -23,11 +24,11 @@ public class ShieldSystem extends EntitySystem {
 	ComponentMapper<Hull> hulls;
 
 	public void powerUp(Entity entity) {
-		
+
 		String name = entity.getComponent(NameComponent.class).getName();
 		logger.debug("powering up shields of {}", name);
 		Shield shield = shields.get(entity);
-		shield.setActivated(true); 
+		shield.setActivated(true);
 		Hull hull = hulls.get(entity);
 		shield.setShieldwidth(hull.getSize());
 		shield.setMatrix(new int[shield.getShieldstrength()][hull.getSize()]);
@@ -55,10 +56,10 @@ public class ShieldSystem extends EntitySystem {
 	 * 
 	 * @return Returns the amount of damage the shield could not absorb;
 	 */
-	public int recieveBeamDamage(Entity entity, int damageAmount) {
+	public int recieveBeamDamage(Shield shield , int damageAmount) {
 
 		int overflow = damageAmount;
-		Shield shield = shields.get(entity);
+		
 		if (shield.isActivated()) {
 			logger.debug("shields taking {} damage", damageAmount);
 			// determines from where the shield will be stripper
@@ -81,9 +82,8 @@ public class ShieldSystem extends EntitySystem {
 							if (level[i] == 1) {
 								level[i] = 0;
 								overflow--;
-								if(overflow == 0)
-								{
-									logger.debug(shieldStatus(entity));
+								if (overflow == 0) {
+									logger.debug(shieldStatus(shield));
 									return overflow;
 								}
 							}
@@ -92,7 +92,7 @@ public class ShieldSystem extends EntitySystem {
 				}
 			}
 		}
-		logger.debug(shieldStatus(entity));
+		logger.debug(shieldStatus(shield));
 		return overflow;
 	}
 
@@ -112,8 +112,10 @@ public class ShieldSystem extends EntitySystem {
 		return count;
 	}
 
-	public String shieldStatus(Entity entity) {
-		Shield shield = shields.get(entity);
+	public String shieldStatus(Shield shield) {
+		if (shield == null) {
+			return "Shield is null";
+		}
 		StringBuilder builder = new StringBuilder();
 		builder.append("X means shield present");
 		if (!shield.isActivated()) {

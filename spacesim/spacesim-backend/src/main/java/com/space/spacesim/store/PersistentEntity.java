@@ -28,17 +28,20 @@ public class PersistentEntity<E extends Entity> {
 	private static final Logger logger = LoggerFactory.getLogger(PersistentEntity.class);
 
 	@Id
-	@Setter private ORID id;
+	@Setter
+	private ORID id;
 
 	// private Set<ODocument> components = new HashSet<>();
 
 	@OneToMany(fetch = FetchType.EAGER)
 	private Set<Component> components = new HashSet<>();
 
-	@Setter transient Class<E> type;
+	@Setter
+	transient Class<E> type;
 
 	@Inject
-	@Setter transient private OPartitionedDatabasePool pool;
+	@Setter
+	transient private OPartitionedDatabasePool pool;
 
 	public PersistentEntity() {
 	};
@@ -47,9 +50,9 @@ public class PersistentEntity<E extends Entity> {
 		return new OObjectDatabaseTx(pool.acquire());
 	}
 
-	public void reload() {
+	public PersistentEntity<E> reload() {
 		try (OObjectDatabaseTx db = acquire()) {
-			db.reload(this);
+			return db.reload(this);
 		}
 	}
 
@@ -59,7 +62,7 @@ public class PersistentEntity<E extends Entity> {
 		}
 	}
 
-	public PersistentEntity<E> load(ORID id) {
+	public PersistentEntity<E> load() {
 		try (OObjectDatabaseTx db = acquire()) {
 			return db.load(id);
 		}
@@ -69,40 +72,45 @@ public class PersistentEntity<E extends Entity> {
 		try (OObjectDatabaseTx db = acquire()) {
 			for (Component com : components) {
 				db.attach(com);
-				logger.debug("attached {} ", com);
+				// logger.debug("attached {} ", com);
 			}
 		}
 	}
 
 	private void detachComponentBag() {
 		try (OObjectDatabaseTx db = acquire()) {
+			Set<Component> detached = new HashSet<>();
 			for (Component com : components) {
-				db.detach(com, true);
-				logger.debug("detached {} ", com);
+				detached.add(db.detachAll(com, true));
+				// logger.debug("detached {} ", com);
 			}
+			this.components = detached;
 		}
 	}
 
 	public PersistentEntity<E> save() {
-		logger.debug("saving {} {} ", getId(), components);
+
 		attachComponentBag();
 		try (OObjectDatabaseTx db = acquire()) {
+			logger.debug("saving {} {} ", getId(), components);
 			db.attach(this);
 			PersistentEntity<E> stored = db.save(this, type.getSimpleName());
-			detachComponentBag();
-			return stored;
+			stored.setPool(pool);
+			return db.detachAll(stored, true);
 		}
 
-	}
-
-	public <C extends Component> Component addComponent(Class<C> type) {
-		try (OObjectDatabaseTx db = acquire()) {
-			Component component = db.newInstance(type);
-			return this.addComponent(component, type);
-		}
 	}
 
 	public <C extends Component> Component addComponent(Component component, Class<C> type) {
+		if (component == null) {
+			try {
+				component = type.newInstance();
+			} catch (InstantiationException | IllegalAccessException e) {
+				logger.error("Error creating component");
+				return null;
+			}
+		}
+
 		try (OObjectDatabaseTx db = acquire()) {
 			if (checkExistsObjectOfType(components, type)) {
 				throw new RuntimeException(
@@ -158,6 +166,6 @@ public class PersistentEntity<E extends Entity> {
 	}
 
 	public ORID getId() {
-			return id;
+		return id;
 	}
 }

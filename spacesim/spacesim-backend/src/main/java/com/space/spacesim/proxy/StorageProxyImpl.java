@@ -60,7 +60,8 @@ public class StorageProxyImpl implements StorageProxy {
 			OObjectIteratorCluster<Object> loaded = db.browseCluster(type.getSimpleName()).setFetchPlan("*:-1");
 			for (Object Ob : loaded) {
 
-				PersistentEntity<E> persistentEntity = db.detach(Ob, true);
+				PersistentEntity<E> persistentEntity = db.detachAll(Ob, true);
+				persistentEntity.setPool(pool);
 				injector.injectMembers(persistentEntity);
 				persistentEntity.setType(type);
 				E entity = injector.getInstance(Key.get(type, EmptyEntity.class));

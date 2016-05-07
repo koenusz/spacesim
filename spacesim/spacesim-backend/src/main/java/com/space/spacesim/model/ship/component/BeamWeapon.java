@@ -3,13 +3,12 @@ package com.space.spacesim.model.ship.component;
 import javax.persistence.Id;
 
 import com.badlogic.ashley.core.Component;
-import com.badlogic.ashley.core.Entity;
 import com.orientechnologies.orient.core.id.ORID;
+import com.space.spacesim.model.common.component.Target;
 
 import lombok.Data;
 
 @Data
-
 public class BeamWeapon implements Component {
 	
 	@Id
@@ -17,6 +16,6 @@ public class BeamWeapon implements Component {
 	
 	private int power = 3 ;
 	
-	private Entity target;
+	private Target target;
 
 }

@@ -10,7 +10,7 @@ public interface Storable<A extends AbstractEntity<A>> {
 
 	public void reload() ;
 
-	public void load(ORID id);
+	public void load();
 	
 	public void save();
 	
@@ -19,4 +19,6 @@ public interface Storable<A extends AbstractEntity<A>> {
 	public <C extends Component> void removeComponent(Class<C> componentType);
 	
 	public void setPersistentEntity(PersistentEntity<A> entity);
+	
+	public PersistentEntity<A> getPersistentEntity();
 }
