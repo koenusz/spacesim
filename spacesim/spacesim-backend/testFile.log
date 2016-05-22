@@ -5700,3 +5700,755 @@
 919  [main] DEBUG com.space.spacesim.Application - X means shield present
 	0	|X|X|X|X|X| power: 5
 	0	|X|X|X|X|X| power: 5
+1658 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1702 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1703 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1704 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1704 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1705 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1709 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1710 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1710 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1710 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1710 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1710 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1711 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1711 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1713 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1713 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1713 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1713 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1714 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1714 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1714 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1714 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1714 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1714 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1715 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1715 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1715 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1715 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1784 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+1786 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1786 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1786 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1786 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1786 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1786 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1787 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1787 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1789 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1790 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1790 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1792 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1792 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1803 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1803 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1803 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1803 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1803 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+1803 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1804 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1804 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1804 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1804 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1804 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1804 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1804 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+158381 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:11 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[0, 0, 0, 0, 0], [0, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+177703 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+177704 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+177712 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+177713 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+177715 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+177716 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+178508 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+178509 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+179440 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+179441 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+179444 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+179445 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+179447 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+179448 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+179450 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+179451 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+179452 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+179454 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+961  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1000 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1000 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1001 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1001 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1001 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1005 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1005 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1005 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1006 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1006 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1006 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1007 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1007 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1011 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1011 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1012 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1012 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1027 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1030 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1030 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1031 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1031 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1031 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1031 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1032 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1032 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1032 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1032 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1032 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1032 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1033 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1033 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1034 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1034 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1041 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1041 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1041 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1041 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1041 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+1042 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1042 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1042 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1042 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1042 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1042 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1042 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1042 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+4748 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:13 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[0, 0, 0, 0, 0], [0, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+6020 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+6021 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+6028 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+6029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+6031 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+6032 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+7011 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+7012 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+135388 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+136264 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+189455 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+190517 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+317714 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+318073 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+322223 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+322539 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+328263 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+328606 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+349375 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+349377 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+355265 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+355266 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+700089 [main] DEBUG com.space.spacesim.Application - saved #19:13
+700090 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+700090 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| | | | |X| power: 1
+700090 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+700093 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+700094 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+700094 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+700096 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+700096 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+700098 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+700103 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+700103 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+700103 [main] DEBUG c.s.s.model.ship.component.Armor - setting armorclass to 5
+700106 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+700107 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+700108 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+700108 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+700108 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+700108 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+700108 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+700109 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+700109 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+700109 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+700112 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+700112 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+700115 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+700115 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+700115 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+879  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+909  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+909  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+911  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+911  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+914  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+915  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+915  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+915  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+915  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+915  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+916  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+916  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+916  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+916  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+917  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+918  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+918  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+918  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+918  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+927  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+930  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+930  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+932  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+932  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+932  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+933  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+947  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+947  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+947  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+947  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+947  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+947  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+947  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+947  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+948  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+948  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+948  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+948  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+948  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+948  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:14 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+949  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+949  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+950  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+950  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+950  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+950  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+951  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+952  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+952  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+952  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+952  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+952  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:15 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[0, 0, 0, 0, 0], [0, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+953  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+953  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+953  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+953  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+953  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+953  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+956  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+956  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+957  [main] DEBUG com.space.spacesim.Application - saved #19:15
+957  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+957  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| | | | |X| power: 1
+957  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+962  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+962  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+962  [main] DEBUG c.s.s.model.ship.component.Armor - setting armorclass to 5
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+964  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+966  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+966  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+968  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+968  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+968  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+962  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1003 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1003 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1004 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1004 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1004 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1009 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1010 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1011 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1011 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1012 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1013 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1014 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1014 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1015 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1016 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1024 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+1026 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1026 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1026 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1026 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1027 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1027 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1028 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1028 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1029 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1030 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1030 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1031 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1031 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1039 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1040 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1040 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1040 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1040 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+1040 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1040 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1040 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1040 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1041 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1041 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1041 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1041 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1042 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:16 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1043 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1044 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1044 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1044 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1044 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1045 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1045 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1045 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1046 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1047 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1048 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1048 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1049 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1049 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+20316 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:17 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+20335 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+20336 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+20338 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+20340 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+20340 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+20341 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+20348 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+20349 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+20362 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+20363 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+20364 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+20365 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+20365 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+20366 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+20367 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+20367 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+20368 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+20369 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+20377 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+20378 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+20386 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+20387 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+860  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+891  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+891  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+892  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+892  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+892  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+895  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+896  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+896  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+896  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+896  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+896  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+897  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+897  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+898  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+898  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+898  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+898  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+898  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+898  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+899  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+899  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+899  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+899  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+899  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+899  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+900  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+900  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+907  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+908  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+908  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+908  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+908  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+908  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+908  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+909  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+909  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+910  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+910  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+910  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+911  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+912  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+912  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+912  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+921  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+921  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+921  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+921  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+921  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+921  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+921  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+921  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+922  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+922  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+922  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+922  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+922  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+922  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:18 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+923  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+923  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+923  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+924  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+926  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+927  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+927  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+927  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:19 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=10), BeamWeapon(power=3)] 
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+928  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+929  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+930  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+931  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+932  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+932  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+933  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+933  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+933  [main] DEBUG com.space.spacesim.Application - saved #19:19
+933  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+933  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+937  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+937  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+937  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+937  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+938  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+938  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+939  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+939  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+939  [main] DEBUG c.s.s.model.ship.component.Armor - setting armorclass to 5
+940  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+940  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+940  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+940  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+941  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+941  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+941  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+941  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+941  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+941  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+942  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+942  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+943  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+943  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+944  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+856  [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+903  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+903  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+905  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+905  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+905  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+925  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+935  [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+936  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+936  [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+936  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+936  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:20 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+944  [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:21 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=10), BeamWeapon(power=3)] 
+951  [main] DEBUG com.space.spacesim.Application - saved #19:21
+952  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+952  [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+954  [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+955  [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+955  [main] DEBUG c.s.s.model.ship.component.Armor - setting armorclass to 5
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+957  [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+960  [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+962  [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+962  [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+962  [main] DEBUG com.space.spacesim.Application - Status: inactive
+1404 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1601 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1602 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1603 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1603 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1603 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1622 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+1631 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1631 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1631 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1631 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1632 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1632 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:0 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1641 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[0, 0, 0, 0, 0], [0, 1, 1, 1, 1]], activated=true), Hull(size=10), BeamWeapon(power=3)] 
+1649 [main] DEBUG com.space.spacesim.Application - saved #19:1
+1649 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1649 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1649 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1651 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1651 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1651 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1651 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1651 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1651 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1652 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1652 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1652 [main] DEBUG c.s.s.model.ship.component.Armor - setting armorclass to 5
+1655 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1656 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1657 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1658 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1659 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1659 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1659 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4

@@ -12,6 +12,7 @@ import com.guicemodel.AshleyModule;
 import com.guicemodel.OrientDBModule;
 import com.guicemodel.PersistentEntitiesModule;
 import com.space.spacesim.model.entity.Ship;
+import com.space.spacesim.model.ship.component.Hull;
 import com.space.spacesim.model.ship.component.Shield;
 import com.space.spacesim.model.ship.system.BeamWeaponSystem;
 import com.space.spacesim.model.ship.system.ShieldSystem;
@@ -105,6 +106,14 @@ public class Application {
 		 beamWeapons.attack(ship1, ship2);
 		 beamWeapons.attack(ship1, ship2);
 		 
+		 shields.powerDown(ship1.getComponent(Shield.class));
+		 ship1.save();
+		 
+		 
+		 Hull hull = ship2.getComponent(Hull.class);
+		 hull.setSize(10);
+		 
+		 //shields.powerDown(ship2.getComponent(Shield.class));
 		 ship2.save();
 		 //TODO this second save does not work
 		 logger.debug("saved {}", ship2.getId());

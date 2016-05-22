@@ -149,12 +149,15 @@ public class PersistentEntity<E extends Entity> {
 
 				// propertyEditor.getReadMethod() exposes the getter
 				// btw, this may be null if you have a write-only property
-				logger.debug("readmethod {}", propertyDescriptor.getReadMethod());
-				logger.debug("name {}", propertyDescriptor.getName());
+				// logger.debug("readmethod {}", propertyDescriptor.getReadMethod());
+				// logger.debug("name {}", propertyDescriptor.getName());
 				Object value = propertyDescriptor.getReadMethod().invoke(component);
 				doc.field(propertyDescriptor.getName(), value);
 
 			}
+			entity.field(component.getClass().getSimpleName(), doc);
+			
+			
 		} catch (IntrospectionException | IllegalAccessException | IllegalArgumentException
 				| InvocationTargetException e) {
 			logger.error("Error while introspecting {} ", component);
