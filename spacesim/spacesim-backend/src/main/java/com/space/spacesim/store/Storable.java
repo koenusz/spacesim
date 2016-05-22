@@ -17,8 +17,7 @@ public interface Storable<A extends AbstractEntity<A>> {
 	public <C extends Component> void addComponent(Class<C> componentType);
 	//TODO: maybe add remove and delete from store.
 	public <C extends Component> void removeComponent(Class<C> componentType);
+
+	void setPersistentEntity(PersistentEntity<A> persistentEntity);
 	
-	public void setPersistentEntity(PersistentEntity<A> entity);
-	
-	public PersistentEntity<A> getPersistentEntity();
 }

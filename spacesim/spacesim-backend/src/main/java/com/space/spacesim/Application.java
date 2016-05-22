@@ -11,7 +11,6 @@ import com.google.inject.Injector;
 import com.guicemodel.AshleyModule;
 import com.guicemodel.OrientDBModule;
 import com.guicemodel.PersistentEntitiesModule;
-import com.space.spacesim.model.common.component.Target;
 import com.space.spacesim.model.entity.Ship;
 import com.space.spacesim.model.ship.component.Shield;
 import com.space.spacesim.model.ship.system.BeamWeaponSystem;
@@ -19,8 +18,6 @@ import com.space.spacesim.model.ship.system.ShieldSystem;
 import com.space.spacesim.model.util.system.NameSystem;
 import com.space.spacesim.proxy.EngineProxy;
 import com.space.spacesim.proxy.StorageProxy;
-
-import ch.qos.logback.access.db.DBAppender;
 
 public class Application {
 
@@ -58,7 +55,7 @@ public class Application {
 
 	public void init() {
 
-		storage.loadAllIntoEngine(Ship.class);
+		//storage.loadAllIntoEngine(Ship.class);
 
 		ImmutableArray<Entity> loadedShips = engine.getEntities();
 		logger.debug("Printing loaded ships");
@@ -70,7 +67,7 @@ public class Application {
 		ship1.initDefaultComnponentSet();
 		ship1.setName("ship1");
 		Ship ship2 = injector.getInstance(Ship.class);
-		ship1.getTarget().setShield(ship1.getComponent(Shield.class));
+		
 		
 		
 		ship2.initDefaultComnponentSet();
@@ -87,7 +84,9 @@ public class Application {
 		engine.addSystem(injector.getInstance(NameSystem.class));
 
 	
-		beamWeapons.target(ship2, ship1.getTarget());
+		beamWeapons.attack(ship2, ship1);
+		
+		shields.powerUp(ship2);
 		
 		ship1.save();
 		ship2.save();
@@ -103,16 +102,20 @@ public class Application {
 
 		 logger.debug(shields.shieldStatus(ship2.getComponent(Shield.class)));
 
-		engine.update(1);
-
-		engine.update(1);
-
-		engine.update(1);
+		 beamWeapons.attack(ship1, ship2);
+		 beamWeapons.attack(ship1, ship2);
+		 
+		 ship2.save();
+		 //TODO this second save does not work
+		 logger.debug("saved {}", ship2.getId());
+		 
+		 
+		 beamWeapons.attack(ship1, ship2);
 		
 		
-		ship1.load();
+		ship2.load();
 		
-		logger.debug(shields.shieldStatus(ship1.getComponent(Shield.class)));
+		logger.debug(shields.shieldStatus(ship2.getComponent(Shield.class)));
 
 		
 	}

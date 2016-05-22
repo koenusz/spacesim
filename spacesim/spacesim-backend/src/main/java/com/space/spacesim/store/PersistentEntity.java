@@ -1,12 +1,13 @@
 package com.space.spacesim.store;
 
+import java.beans.IntrospectionException;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
 import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.persistence.FetchType;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import java.util.List;
+import java.util.Map;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,89 +15,93 @@ import org.slf4j.LoggerFactory;
 import com.badlogic.ashley.core.Component;
 import com.badlogic.ashley.core.Entity;
 import com.google.inject.Inject;
+import com.guicemodel.ComponentFactory;
 import com.orientechnologies.orient.core.db.OPartitionedDatabasePool;
+import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import com.orientechnologies.orient.core.id.ORID;
+import com.orientechnologies.orient.core.id.ORecordId;
 import com.orientechnologies.orient.core.metadata.schema.OClass;
 import com.orientechnologies.orient.core.metadata.schema.OType;
-import com.orientechnologies.orient.object.db.OObjectDatabaseTx;
+import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.space.spacesim.model.util.component.NameComponent;
 
+import lombok.NonNull;
 import lombok.Setter;
 
 public class PersistentEntity<E extends Entity> {
 
 	private static final Logger logger = LoggerFactory.getLogger(PersistentEntity.class);
 
-	@Id
+	@NonNull
 	@Setter
-	private ORID id;
+	private ODocument entity = new ODocument();
 
-	// private Set<ODocument> components = new HashSet<>();
-
-	@OneToMany(fetch = FetchType.EAGER)
-	private Set<Component> components = new HashSet<>();
+	private List<Component> components = new ArrayList<>();
 
 	@Setter
-	transient Class<E> type;
+	private Class<E> type;
 
 	@Inject
+	private ComponentFactory factory;
+
 	@Setter
-	transient private OPartitionedDatabasePool pool;
+	@Inject
+	private OPartitionedDatabasePool pool;
 
-	public PersistentEntity() {
-	};
+	public void load() {
 
-	private OObjectDatabaseTx acquire() {
-		return new OObjectDatabaseTx(pool.acquire());
-	}
+		// TODO: make sure the ashley engine does not hold onto old components
 
-	public PersistentEntity<E> reload() {
-		try (OObjectDatabaseTx db = acquire()) {
-			return db.reload(this);
-		}
-	}
+		try (ODatabaseDocumentTx db = pool.acquire()) {
+			entity = db.load(entity);
+			for (Object fieldValue : entity.fieldValues()) {
 
-	public PersistentEntity<E> load(String id) {
-		try (OObjectDatabaseTx db = acquire()) {
-			return db.load(id);
-		}
-	}
+				if (fieldValue instanceof ORecordId) {
 
-	public PersistentEntity<E> load() {
-		try (OObjectDatabaseTx db = acquire()) {
-			return db.load(id);
-		}
-	}
-
-	private void attachComponentBag() {
-		try (OObjectDatabaseTx db = acquire()) {
-			for (Component com : components) {
-				db.attach(com);
-				// logger.debug("attached {} ", com);
+					ODocument odoc = db.load((ORecordId) fieldValue);
+					Component com = findComponent(odoc.getClassName());
+					if (com != null) {
+						copyFieldsFromEntity(com);
+					} else {
+						// If there is no component already, in effect if this
+						// is a newly loaded instance. Create a new component.
+						com = factory.create(odoc.getClassName());
+					}
+					components.add(com);
+				}
 			}
 		}
+
 	}
 
-	private void detachComponentBag() {
-		try (OObjectDatabaseTx db = acquire()) {
-			Set<Component> detached = new HashSet<>();
-			for (Component com : components) {
-				detached.add(db.detachAll(com, true));
-				// logger.debug("detached {} ", com);
+	private Component findComponent(String className) {
+		for (Component com : components) {
+			if (com.getClass().getSimpleName().equals(className)) {
+				return com;
 			}
-			this.components = detached;
 		}
+		return null;
 	}
 
-	public PersistentEntity<E> save() {
+	private ODocument findDoc(String className) {
+		if (entity.containsField(className)) {
+			return entity.field(className);
+		}
+		// logger.error("field {} not found in DB entity {}", className, type +
+		// getId().toString());
+		ODocument doc = new ODocument();
+		doc.setClassName(className);
+		return doc;
+	}
 
-		attachComponentBag();
-		try (OObjectDatabaseTx db = acquire()) {
+	public void save() {
+
+		try (ODatabaseDocumentTx db = pool.acquire()) {
 			logger.debug("saving {} {} ", getId(), components);
-			db.attach(this);
-			PersistentEntity<E> stored = db.save(this, type.getSimpleName());
-			stored.setPool(pool);
-			return db.detachAll(stored, true);
+			for (Component component : components) {
+				copyFieldsToEntity(component);
+			}
+			entity = db.save(entity, type.getSimpleName());
 		}
 
 	}
@@ -111,28 +116,78 @@ public class PersistentEntity<E extends Entity> {
 			}
 		}
 
-		try (OObjectDatabaseTx db = acquire()) {
+		try (ODatabaseDocumentTx db = pool.acquire()) {
 			if (checkExistsObjectOfType(components, type)) {
 				throw new RuntimeException(
-						"trying to add a component " + component + " which already exists in the set of " + id);
+						"trying to add a component " + component + " which already exists in the set of " + getId());
 			}
 
 			OClass oclass = db.getMetadata().getSchema().getClass(PersistentEntity.class);
 			if (!oclass.existsProperty(type.getSimpleName())) {
 				// TODO schema updates might not be ideal in this spot. it gets
-				// called during every new instanciation od ship.
+				// called during every new instantiation of ship.
 				OClass ocomponent = db.getMetadata().getSchema().getClass(type);
 				oclass.createProperty(type.getSimpleName(), OType.LINK, ocomponent).setMax("1");
 				db.getMetadata().getSchema().save();
 			}
-			// TODO: add a checkl to see if the component is already added. only
-			// 1
-			// of each type is allowed.
-			// ODocument doc = db.getRecordByUserObject(component, true);
 
+			ODocument componentDoc = new ODocument();
+			componentDoc.setClassName(component.getClass().getSimpleName());
 			components.add(component);
+			entity.field(type.getSimpleName(), componentDoc);
 			return component;
 		}
+	}
+
+	private void copyFieldsToEntity(Component component) {
+		
+		ODocument doc = findDoc(component.getClass().getSimpleName());
+		
+		try {
+			for (PropertyDescriptor propertyDescriptor : Introspector.getBeanInfo(component.getClass(), Object.class)
+					.getPropertyDescriptors()) {
+
+				// propertyEditor.getReadMethod() exposes the getter
+				// btw, this may be null if you have a write-only property
+				logger.debug("readmethod {}", propertyDescriptor.getReadMethod());
+				logger.debug("name {}", propertyDescriptor.getName());
+				Object value = propertyDescriptor.getReadMethod().invoke(component);
+				doc.field(propertyDescriptor.getName(), value);
+
+			}
+		} catch (IntrospectionException | IllegalAccessException | IllegalArgumentException
+				| InvocationTargetException e) {
+			logger.error("Error while introspecting {} ", component);
+			e.printStackTrace();
+		}
+	}
+
+	private void copyFieldsFromEntity(Component component) {
+		try {
+			ODocument doc = findDoc(component.getClass().getSimpleName());
+			
+			for (PropertyDescriptor propertyDescriptor : Introspector.getBeanInfo(component.getClass(), Object.class)
+					.getPropertyDescriptors()) {
+
+				// propertyEditor.getReadMethod() exposes the getter
+				// btw, this may be null if you have a write-only property
+				logger.debug("readmethod {}", propertyDescriptor.getReadMethod());
+				logger.debug("name {}", propertyDescriptor.getName());
+				Object fieldvalue =  doc.field(propertyDescriptor.getName());
+						
+				propertyDescriptor.getWriteMethod().invoke(component,fieldvalue);
+				
+
+			}
+		} catch (IntrospectionException | IllegalAccessException | IllegalArgumentException
+				| InvocationTargetException e) {
+			logger.error("Error while introspecting {} ", component.getClass().getSimpleName());
+			e.printStackTrace();
+		}
+	}
+
+	private boolean checkExistsKeyOfType(Map<?, ?> c, Class<?> type) {
+		return checkExistsObjectOfType(c.keySet(), type);
 	}
 
 	private boolean checkExistsObjectOfType(Collection<?> c, Class<?> type) {
@@ -144,16 +199,13 @@ public class PersistentEntity<E extends Entity> {
 		return false;
 	}
 
-	public <C extends Component> void removeComponent(Class<C> type) {
+	public <C extends Component> void removeComponent(Class<C> componentType) {
+
 		for (Component com : components) {
-			if (com.getClass().equals(type)) {
+			if (com.getClass().equals(componentType)) {
 				components.remove(com);
 			}
 		}
-	}
-
-	public Set<Component> getComponents() {
-		return components;
 	}
 
 	public boolean hasNameComponent() {
@@ -166,6 +218,6 @@ public class PersistentEntity<E extends Entity> {
 	}
 
 	public ORID getId() {
-		return id;
+		return entity.getIdentity();
 	}
 }

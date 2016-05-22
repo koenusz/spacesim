@@ -26,7 +26,6 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 		if (!persistentEntity.hasNameComponent()) {
 			addNameComponent();
 		}
-
 	}
 
 	protected AbstractEntity(NameSystem names) {
@@ -41,7 +40,7 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 	}
 
 	public void reload() {
-		persistentEntity = persistentEntity.reload();
+	//	persistentEntity = persistentEntity.reload();
 	}
 
 //	public void load(String id) {
@@ -52,15 +51,11 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 //	}
 
 	public void load() {
-		persistentEntity = persistentEntity.load();
+		persistentEntity.load();
 	}
 
 	public void save() {
-		this.persistentEntity = persistentEntity.save();
-		for(Component com : persistentEntity.getComponents())
-		{
-			updateComponent(com);
-		}
+		persistentEntity.save();
 	}
 
 	public <C extends Component> void addComponent(Class<C> type) {
@@ -74,10 +69,6 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 		addComponentToEngine(component);
 	}
 
-	private void updateComponent(Component component) {
-		this.remove(component.getClass());
-		this.add(component);
-	}
 
 	private void addComponentToEngine(Component component) {
 		this.add(component);
@@ -118,19 +109,15 @@ public abstract class AbstractEntity<A extends AbstractEntity<A>> extends Entity
 		return this.getComponent(NameComponent.class).getClassification();
 	}
 
-	@Override
-	public PersistentEntity<A> getPersistentEntity() {
-		return persistentEntity;
-	}
-
-	@Override
-	public void setPersistentEntity(PersistentEntity<A> persistentEntity) {
-		this.persistentEntity = persistentEntity;
-		this.persistentEntity.getComponents().stream().forEach(component -> add(component));
-	}
-
 	public ORID getId() {
 		return persistentEntity.getId();
 	}
+	
+	@Override
+	public void setPersistentEntity(PersistentEntity<A> persistentEntity)
+	{
+		this.persistentEntity = persistentEntity;
+	}
+	
 
 }

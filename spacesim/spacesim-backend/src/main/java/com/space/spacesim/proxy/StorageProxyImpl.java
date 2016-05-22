@@ -10,9 +10,10 @@ import com.google.inject.Inject;
 import com.google.inject.Injector;
 import com.google.inject.Key;
 import com.orientechnologies.orient.core.db.OPartitionedDatabasePool;
+import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import com.orientechnologies.orient.core.id.ORID;
+import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.orientechnologies.orient.object.db.OObjectDatabaseTx;
-import com.orientechnologies.orient.object.iterator.OObjectIteratorCluster;
 import com.space.spacesim.model.entity.AbstractEntity;
 import com.space.spacesim.model.entity.EmptyEntity;
 import com.space.spacesim.store.PersistentEntity;
@@ -56,16 +57,18 @@ public class StorageProxyImpl implements StorageProxy {
 
 	@Override
 	public <E extends AbstractEntity<E>, PE extends PersistentEntity<E>> void loadAllIntoEngine(Class<E> type) {
-		try (OObjectDatabaseTx db = new OObjectDatabaseTx(pool.acquire())) {
-			OObjectIteratorCluster<Object> loaded = db.browseCluster(type.getSimpleName()).setFetchPlan("*:-1");
-			for (Object Ob : loaded) {
+		try (ODatabaseDocumentTx db = pool.acquire()) {
+			// db.browseCluster(type.getSimpleName()).setFetchPlan("*:-1");
+			for (ODocument doc : db.browseCluster(type.getSimpleName())) {
 
-				PersistentEntity<E> persistentEntity = db.detachAll(Ob, true);
-				persistentEntity.setPool(pool);
-				injector.injectMembers(persistentEntity);
-				persistentEntity.setType(type);
 				E entity = injector.getInstance(Key.get(type, EmptyEntity.class));
-				entity.setPersistentEntity(persistentEntity);
+				PersistentEntity<E> persistentEntity = injector.getInstance(PersistentEntity.class);
+				persistentEntity.setType(type);
+				persistentEntity.setEntity(doc);
+				persistentEntity.load();
+				if (entity instanceof AbstractEntity) {
+					((AbstractEntity<E>) entity).setPersistentEntity(persistentEntity);
+				}
 
 				engine.addEntity(type.cast(entity));
 			}

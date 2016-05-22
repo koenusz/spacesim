@@ -10,8 +10,8 @@ import com.badlogic.ashley.core.EntitySystem;
 import com.badlogic.ashley.core.Family;
 import com.badlogic.ashley.utils.ImmutableArray;
 import com.google.inject.Inject;
-import com.space.spacesim.model.common.component.Target;
 import com.space.spacesim.model.ship.component.BeamWeapon;
+import com.space.spacesim.model.ship.component.Shield;
 
 public class BeamWeaponSystem extends EntitySystem {
 
@@ -25,16 +25,6 @@ public class BeamWeaponSystem extends EntitySystem {
 
 	private ImmutableArray<Entity> entities;
 
-	public void target(Entity attacker, Target target) {
-		logger.debug("{} targetting {} ", attacker, target);
-			
-		BeamWeapon attackerWeapon = beamWeapons.get(attacker);
-		if (attackerWeapon != null) {
-			attackerWeapon.setTarget(target);
-		} else {
-			logger.error("beamweapon for {} not found" + attacker);
-		}
-	}
 
 	@Override
 	public void addedToEngine(Engine engine) {
@@ -42,18 +32,19 @@ public class BeamWeaponSystem extends EntitySystem {
 	}
 
 	public void update(float deltaTime) {
-		for (Entity entity : entities) {
-			BeamWeapon beamWeapon = beamWeapons.get(entity);
-			if (beamWeapon.getTarget() != null) {
-				shoot(beamWeapon.getTarget(), beamWeapon.getPower());
-			}
-		}
+	}
+	
+	//TODO Should be moved to a more generic attacksystem
+	public void attack(Entity attacker, Entity target)
+	{
+		BeamWeapon weapon = attacker.getComponent(BeamWeapon.class);
+		shoot(target, weapon.getPower());
 	}
 
-	private void shoot(Target target, int damageAmount) {
+	private void shoot(Entity target, int damageAmount) {
 
 		ShieldSystem shieldSystem = engine.getSystem(ShieldSystem.class);
-		int overflow = shieldSystem.recieveBeamDamage(target.getShield(), damageAmount);
+		int overflow = shieldSystem.recieveBeamDamage(target.getComponent(Shield.class), damageAmount);
 		logger.debug("overflow {}", overflow);
 	}
 

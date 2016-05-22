@@ -1,5 +1,9 @@
 package com.space.spacesim.model.ship.system;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -7,7 +11,6 @@ import com.badlogic.ashley.core.ComponentMapper;
 import com.badlogic.ashley.core.Entity;
 import com.badlogic.ashley.core.EntitySystem;
 import com.google.inject.Inject;
-import com.space.spacesim.model.common.component.Target;
 import com.space.spacesim.model.ship.component.BeamWeapon;
 import com.space.spacesim.model.ship.component.Hull;
 import com.space.spacesim.model.ship.component.Shield;
@@ -23,6 +26,17 @@ public class ShieldSystem extends EntitySystem {
 	@Inject
 	ComponentMapper<Hull> hulls;
 
+	public void powerDown(Shield shield) {
+		shield.setMatrix(null);
+		shield.setActivated(false);
+	}
+
+	/**
+	 * Initialise the shieldmatrix, a value of 1 in a shieldpoint means there is
+	 * active shield in this slot.
+	 * 
+	 * @param entity
+	 */
 	public void powerUp(Entity entity) {
 
 		String name = entity.getComponent(NameComponent.class).getName();
@@ -31,16 +45,17 @@ public class ShieldSystem extends EntitySystem {
 		shield.setActivated(true);
 		Hull hull = hulls.get(entity);
 		shield.setShieldwidth(hull.getSize());
-		shield.setMatrix(new int[shield.getShieldstrength()][hull.getSize()]);
+		shield.setMatrix(intitialiseMatrix(shield));
 
-		// a shield of 0 means it is not damaged
-		for (int[] strengthLevel : shield.getMatrix()) {
-			for (int i = 0; i < strengthLevel.length; i++) {
-				strengthLevel[i] = 1;
-			}
+		logger.debug("shield up with strength {} and width {}", shield.getShieldstrength(), shield.getShieldwidth());
+	}
+
+	private List<List<Integer>> intitialiseMatrix(Shield shield) {
+		List<List<Integer>> matrix = new ArrayList<List<Integer>>();
+		for (int levelIndex = shield.getShieldstrength(); levelIndex > 0; levelIndex--) {
+			matrix.add(new ArrayList<Integer>(Collections.nCopies(shield.getShieldwidth(), 1)));
 		}
-
-		logger.debug("shield up with strengt {} and width {}", shield.getShieldstrength(), shield.getShieldwidth());
+		return matrix;
 	}
 
 	/**
@@ -56,31 +71,31 @@ public class ShieldSystem extends EntitySystem {
 	 * 
 	 * @return Returns the amount of damage the shield could not absorb;
 	 */
-	public int recieveBeamDamage(Shield shield , int damageAmount) {
+	public int recieveBeamDamage(Shield shield, int damageAmount) {
 
 		int overflow = damageAmount;
-		
+
 		if (shield.isActivated()) {
 			logger.debug("shields taking {} damage", damageAmount);
 			// determines from where the shield will be stripper
-			for (int[] level : shield.getMatrix()) {
+			for (List<Integer> level : shield.getMatrix()) {
 				if (overflow > 0) {
 					// first if the damage taken is greater then the strength
 					// left
 					// in the level, deplete the level completely.
 					// total strength minus damage taken.
-					int levelStrength = count(level);
+					int levelStrength = countActive(level);
 					if (levelStrength <= overflow) {
-						allToZero(level);
+						Collections.replaceAll(level, 1, 0);
 						overflow = overflow - levelStrength;
 					} else {
 						// here we know that the amount of damage left is
 						// smaller then the shield strength of the level.
-						for (int i = 0; i < level.length; i++) {
+						for (int i = 0; i < level.size();  i++ ) {
 
 							// if the shield is up damage it
-							if (level[i] == 1) {
-								level[i] = 0;
+							if (level.get(i) == 1) {
+								level.set(i, 0);
 								overflow--;
 								if (overflow == 0) {
 									logger.debug(shieldStatus(shield));
@@ -96,16 +111,10 @@ public class ShieldSystem extends EntitySystem {
 		return overflow;
 	}
 
-	private void allToZero(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			array[i] = 0;
-		}
-	}
-
 	// number of 1 values
-	private int count(int[] array) {
+	private int countActive(List<Integer> level) {
 		int count = 0;
-		for (int i : array) {
+		for (int i : level) {
 			if (i == 1)
 				count++;
 		}
@@ -116,18 +125,20 @@ public class ShieldSystem extends EntitySystem {
 		if (shield == null) {
 			return "Shield is null";
 		}
-		StringBuilder builder = new StringBuilder();
-		builder.append("X means shield present");
+		
 		if (!shield.isActivated()) {
 			return "Status: inactive";
 		}
-		int i = 1;
-		for (int[] strengthLevel : shield.getMatrix()) {
-			builder.append("\n\t" + i + "\t");
+		
+		StringBuilder builder = new StringBuilder();
+		builder.append("X means shield present");
+		
+		for (List<Integer> strengthLevel : shield.getMatrix()) {
+			builder.append("\n\t" + shield.getMatrix().indexOf(strengthLevel) + "\t");
 
 			int powerLeft = 0;
-			for (int hullPoint : strengthLevel)
-				if (hullPoint == 1) {
+			for (int shieldPoint : strengthLevel)
+				if (shieldPoint == 1) {
 					builder.append("|X");
 					powerLeft++;
 				} else {

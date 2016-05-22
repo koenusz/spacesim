@@ -10,7 +10,6 @@ import com.orientechnologies.orient.core.serialization.serializer.object.OObject
 import com.orientechnologies.orient.object.db.OObjectDatabaseTx;
 import com.orientechnologies.orient.object.serialization.OObjectSerializerContext;
 import com.orientechnologies.orient.object.serialization.OObjectSerializerHelper;
-import com.space.spacesim.model.common.component.Target;
 import com.space.spacesim.model.entity.AbstractEntity;
 import com.space.spacesim.model.entity.Ship;
 import com.space.spacesim.model.ship.component.BeamWeapon;
@@ -172,7 +171,7 @@ public class CustomDatatypeTest {
 		ship.add(new NameComponent());
 
 		BeamWeapon w = new BeamWeapon();
-		w.setTarget(ship.getComponent(Target.class));
+		
 
 		try (OObjectDatabaseTx db = new OObjectDatabaseTx(LOCAL)) {
 			db.open("root", "root");

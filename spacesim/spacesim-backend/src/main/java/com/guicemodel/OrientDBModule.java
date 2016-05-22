@@ -1,11 +1,9 @@
 package com.guicemodel;
 
-import com.badlogic.ashley.core.Entity;
 import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 import com.orientechnologies.orient.core.db.OPartitionedDatabasePool;
 import com.orientechnologies.orient.object.db.OObjectDatabaseTx;
-import com.orientechnologies.orient.object.serialization.OObjectSerializerHelper;
 import com.space.spacesim.model.entity.Ship;
 import com.space.spacesim.store.PersistentEntity;
 

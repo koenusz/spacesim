@@ -10,7 +10,7 @@ public class ComponentMapperProvider<C extends Component> implements Provider<Co
 	private Class<C> mapperType;
 	
 	ComponentTypeMapper componentTypeMapper;
-	
+		
 	public ComponentMapperProvider(Class<C> type) {
 		
 		mapperType = type; //(Class<C>) componentTypeMapper.getProxyType(type);
