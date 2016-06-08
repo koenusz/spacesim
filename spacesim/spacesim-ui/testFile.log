@@ -467,3 +467,42 @@
 	1	| | | | | | power: 0
 	1	| | | | |X| power: 1
 6956 [qtp1829344035-27] DEBUG c.s.s.model.system.ShieldSystem - overflow 0
+7520 [qtp1683071624-28] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+3741 [qtp926612844-19] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+15210 [qtp926612844-20] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+5750 [qtp306482657-21] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+13719 [qtp306482657-26] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+4417 [qtp1232792716-19] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+7511 [qtp1232792716-23] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+8746 [qtp763755364-21] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+58932 [qtp763755364-28] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+69201 [qtp763755364-21] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+71402 [qtp763755364-27] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+71846 [qtp763755364-25] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+72034 [qtp763755364-24] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+72258 [qtp763755364-28] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+72463 [qtp763755364-21] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+72634 [qtp763755364-27] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+73136 [qtp763755364-25] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+73363 [qtp763755364-24] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+73855 [qtp763755364-28] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+4014 [qtp1181041291-18] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+7359 [qtp1181041291-19] DEBUG c.s.spacesim.proxy.StorageProxyImpl - reaching the proxy
+13125 [qtp1181041291-18] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+4629 [qtp568462037-21] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+10268 [qtp568462037-18] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+3808 [qtp1063423209-22] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+8993 [qtp1063423209-20] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+49713 [qtp1000556746-21] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+68037 [qtp1000556746-26] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+4697 [qtp1000556746-22] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+129718 [qtp1000556746-21] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+133221 [qtp1000556746-22] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+4623 [qtp763755364-28] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+10228 [qtp763755364-24] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+4568 [qtp763755364-24] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+10569 [qtp763755364-23] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+23419 [qtp763755364-23] DEBUG c.s.spacesim.proxy.StorageProxyImpl - loading all
+4181 [qtp763755364-24] DEBUG c.e.inspector.EngineInspectorUI - init engine inspector
+9732 [qtp763755364-23] DEBUG c.e.inspector.EngineInspectorUI - clicked loadall
+17031 [qtp763755364-23] DEBUG c.s.spacesim.proxy.StorageProxyImpl - loading all

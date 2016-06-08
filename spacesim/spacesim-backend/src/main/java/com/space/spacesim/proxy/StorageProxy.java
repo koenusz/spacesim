@@ -17,4 +17,5 @@ public interface StorageProxy {
 	
 	public <E extends AbstractEntity<E>, PE extends PersistentEntity<E>> void loadAllIntoEngine(Class<E> type);
 	
+	
 }

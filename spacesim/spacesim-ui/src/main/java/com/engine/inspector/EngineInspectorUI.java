@@ -10,7 +10,9 @@ import com.badlogic.ashley.core.Entity;
 import com.badlogic.ashley.utils.ImmutableArray;
 import com.google.inject.Inject;
 import com.space.spacesim.Application;
+import com.space.spacesim.model.entity.Ship;
 import com.space.spacesim.proxy.EngineProxy;
+import com.space.spacesim.proxy.StorageProxy;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Widgetset;
 import com.vaadin.data.Item;
@@ -43,6 +45,9 @@ public class EngineInspectorUI extends UI {
 
 	@Inject
 	Application app;
+	
+	@Inject
+	private StorageProxy storage;
 	
 	private static final String MAIN = "main";
 	private static final String HEADER = "header";
@@ -80,8 +85,15 @@ public class EngineInspectorUI extends UI {
 		leftMenu.setDefaultComponentAlignment(Alignment.MIDDLE_LEFT);
 		Button create = new Button("Create Ship");
 		Button delete = new Button("Delete Ship");
+		Button loadall = new Button("LoadAll Ship");
+		loadall.addClickListener(c -> {
+			logger.debug("clicked loadall");
+			storage.loadAllIntoEngine(Ship.class);
+		
+		});
 		leftMenu.addComponent(create);
 		leftMenu.addComponent(delete);
+		leftMenu.addComponent(loadall);
 		
 		
 		TabSheet tabsheet = new TabSheet();

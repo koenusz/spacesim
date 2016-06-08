@@ -6452,3 +6452,65 @@
 1659 [main] DEBUG com.space.spacesim.Application - X means shield present
 	0	| | | | | | power: 0
 	1	| |X|X|X|X| power: 4
+1645 [main] DEBUG com.space.spacesim.Application - Printing loaded ships
+1690 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - Status: inactive
+1690 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 3
+1692 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1697 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1697 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=0, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1749 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #-1:-1 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1]], activated=true), Hull(size=5), BeamWeapon(power=3)] 
+1819 [main] DEBUG com.space.spacesim.Application - after save: {Ship:ship2}
+1820 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1820 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship2
+1820 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1820 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - powering up shields of ship1
+1820 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shield up with strength 2 and width 5
+1820 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	|X|X|X|X|X| power: 5
+	0	|X|X|X|X|X| power: 5
+1820 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1820 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | |X|X| power: 2
+	1	|X|X|X|X|X| power: 5
+1820 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1821 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1821 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4
+1821 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1821 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:2 [NameComponent(type=Ship, name=ship1, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=null, activated=false), Hull(size=5), BeamWeapon(power=3)] 
+1838 [main] DEBUG c.s.spacesim.store.PersistentEntity - saving #19:3 [NameComponent(type=Ship, name=ship2, classification=), Armor(armorClass=5), Shield(shieldstrength=2, shieldwidth=5, rechargerate=1, matrix=[[0, 0, 0, 0, 0], [0, 1, 1, 1, 1]], activated=true), Hull(size=10), BeamWeapon(power=3)] 
+1861 [main] DEBUG com.space.spacesim.Application - saved #19:3
+1861 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - shields taking 3 damage
+1861 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - X means shield present
+	0	| | | | | | power: 0
+	1	| | | | |X| power: 1
+1861 [main] DEBUG c.s.s.m.ship.system.ShieldSystem - overflow 0
+1863 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getClassification()
+1863 [main] DEBUG c.s.spacesim.store.PersistentEntity - name classification
+1863 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getName()
+1863 [main] DEBUG c.s.spacesim.store.PersistentEntity - name name
+1864 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.lang.String com.space.spacesim.model.util.component.NameComponent.getType()
+1864 [main] DEBUG c.s.spacesim.store.PersistentEntity - name type
+1865 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Armor.getArmorClass()
+1865 [main] DEBUG c.s.spacesim.store.PersistentEntity - name armorClass
+1866 [main] DEBUG c.s.s.model.ship.component.Armor - setting armorclass to 5
+1867 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public boolean com.space.spacesim.model.ship.component.Shield.isActivated()
+1867 [main] DEBUG c.s.spacesim.store.PersistentEntity - name activated
+1867 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public java.util.List com.space.spacesim.model.ship.component.Shield.getMatrix()
+1867 [main] DEBUG c.s.spacesim.store.PersistentEntity - name matrix
+1868 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getRechargerate()
+1868 [main] DEBUG c.s.spacesim.store.PersistentEntity - name rechargerate
+1868 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldstrength()
+1868 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldstrength
+1868 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Shield.getShieldwidth()
+1868 [main] DEBUG c.s.spacesim.store.PersistentEntity - name shieldwidth
+1896 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.Hull.getSize()
+1896 [main] DEBUG c.s.spacesim.store.PersistentEntity - name size
+1897 [main] DEBUG c.s.spacesim.store.PersistentEntity - readmethod public int com.space.spacesim.model.ship.component.BeamWeapon.getPower()
+1898 [main] DEBUG c.s.spacesim.store.PersistentEntity - name power
+1898 [main] DEBUG com.space.spacesim.Application - X means shield present
+	0	| | | | | | power: 0
+	1	| |X|X|X|X| power: 4

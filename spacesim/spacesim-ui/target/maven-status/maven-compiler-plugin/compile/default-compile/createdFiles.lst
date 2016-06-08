@@ -1,2 +1,12 @@
+com\guice\Bootstrap.class
+com\space\spacesim\SpaceUIProvider.class
+com\vaadin\util\BeanContainerBuilder.class
+com\vaadin\util\VaadinUtils.class
 com\space\spacesim\SpaceSimUI.class
 com\space\spacesim\ShipComponent.class
+com\engine\inspector\EngineInspectorServlet.class
+com\engine\inspector\EngineUIProvider.class
+com\guice\GuiceApplicationFilter.class
+com\space\spacesim\SpaceApplicationServlet.class
+com\engine\inspector\EngineInspectorUI.class
+com\guice\Bootstrap$1.class

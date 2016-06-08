@@ -38,7 +38,7 @@ public class Application {
 
 	// private final static String LOCALURL = "plocal:spacesim";
 
-	private final static String DOCKERURL = "remote:192.168.99.100:32769/spacesim";
+	private final static String DOCKERURL = "remote:192.168.99.100:32771/spacesim";
 
 	public static void main(String... args) {
 		/*
@@ -53,10 +53,15 @@ public class Application {
 
 		a.init();
 	}
+	
+	public void loadall()
+	{
+		storage.loadAllIntoEngine(Ship.class);
+	}
 
 	public void init() {
 
-		//storage.loadAllIntoEngine(Ship.class);
+		
 
 		ImmutableArray<Entity> loadedShips = engine.getEntities();
 		logger.debug("Printing loaded ships");

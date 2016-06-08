@@ -12,6 +12,7 @@ import com.google.inject.Key;
 import com.orientechnologies.orient.core.db.OPartitionedDatabasePool;
 import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import com.orientechnologies.orient.core.id.ORID;
+import com.orientechnologies.orient.core.iterator.ORecordIteratorCluster;
 import com.orientechnologies.orient.core.record.impl.ODocument;
 import com.orientechnologies.orient.object.db.OObjectDatabaseTx;
 import com.space.spacesim.model.entity.AbstractEntity;
@@ -54,11 +55,14 @@ public class StorageProxyImpl implements StorageProxy {
 			}
 		}
 	}
+	
 
 	@Override
 	public <E extends AbstractEntity<E>, PE extends PersistentEntity<E>> void loadAllIntoEngine(Class<E> type) {
 		try (ODatabaseDocumentTx db = pool.acquire()) {
 			// db.browseCluster(type.getSimpleName()).setFetchPlan("*:-1");
+			logger.debug("loading all");
+			ORecordIteratorCluster<ODocument> iterator = db.browseCluster(type.getSimpleName());
 			for (ODocument doc : db.browseCluster(type.getSimpleName())) {
 
 				E entity = injector.getInstance(Key.get(type, EmptyEntity.class));
@@ -69,7 +73,7 @@ public class StorageProxyImpl implements StorageProxy {
 				if (entity instanceof AbstractEntity) {
 					((AbstractEntity<E>) entity).setPersistentEntity(persistentEntity);
 				}
-
+				logger.debug("loading {} ", entity);
 				engine.addEntity(type.cast(entity));
 			}
 
